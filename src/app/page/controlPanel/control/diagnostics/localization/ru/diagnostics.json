@@ -1,0 +1,170 @@
+{
+  "diagnostics": {
+    "header-title": "Diagnostics",
+    "header-sub-title": "Allows you to check network connections, see the list of existing routes, configure network traffic capture, and enable the debug mode.",
+    "tabs": {
+      "main": "General",
+      "dsl": "DSL"
+    },
+    "tools": {
+      "header": "Network connection test",
+      "tool": "Utility",
+      "ping": "Ping",
+      "traceroute": "Traceroute",
+      "ping6": "Ping IPv6",
+      "host": "Host address",
+      "hide-advanced-settings": "Hide settings",
+      "show-advanced-settings": "Show settings",
+      "count": "Number of requests",
+      "size": "Packet size (in bytes)",
+      "start-tool": "Start the test",
+      "stop-tool": "Stop the test",
+      "max-ttl": "Maximum TTL",
+      "type": "Protocol",
+      "icmp": "ICMP",
+      "tcp": "TCP",
+      "udp": "UDP",
+      "port": "Port"
+    },
+    "connections": {
+      "title": "Active connections",
+      "description": "Active connections and relevant ports used.",
+      "source": "Source",
+      "destination": "Destination IP",
+      "service": "Service"
+    },
+    "log": {
+      "header-title": "System log",
+      "system-messages-list": "The log registers system events that can be useful for network administrators. You can save the log to a computer or automatically send to a syslog server.",
+      "send-message": "Use Syslog",
+      "server-title": "Server address",
+      "server-address": "Enter the server address",
+      "see-log-list-button": "Show log",
+      "notification": {
+        "save-address": "The server address is saved",
+        "disable-send-to-server": "Sending to an external server is forbidden"
+      },
+      "popup-log": {
+        "title": "System log",
+        "update": "Update in real time",
+        "save-local": "Save to computer",
+        "clean": "Clear log"
+      }
+    },
+    "capture": {
+      "header-title": "Packet capture",
+      "header-info": "You can enable capture of network traffic going through the selected interface of your Keenetic. The generated file may be opened for analysis on a PC using the Wireshark program.",
+      "add-btn": "Create a capture rule",
+      "flush-btn": "Remove all settings",
+      "delete-btn": "Delete a capture rule",
+      "list": {
+        "output_directory": "Storage folder",
+        "stop-btn": "Stop",
+        "start-btn": "Start",
+        "reset-btn": "Delete file",
+        "download-btn": "Save to computer",
+        "no_entries-caption": "No capture rules defined",
+        "lbl-frames_captured": "Captured packets",
+        "lbl-frames_dropped": "Dropped packets",
+        "lbl-frames_lost": "Lost packets",
+        "lbl-bytes_captured": "Captured",
+        "lbl-bytes_dropped": "Dropped",
+        "lbl-time-duration": "Duration"
+      },
+      "edit": {
+        "invalid-filter-syntax": "Syntax error",
+        "header-title": "Packet capture settings",
+        "header-info": "Select the network interface on which you want to listen to the traffic, and specify the parameters for the packet capture",
+        "filter-help": "Apply filters to reduce the amount of captured traffic and save the memory space for the data that interests you. The filter syntax is the same as in {{wiresharkLink}}. \nExample: with the filter '{{wiresharkExample}}' only DNS traffic to IP {{wiresharkExampleIp}} will be captured.",
+        "promisc-help": "Turn on so the interface does not discard traffic that is not addressed to it.",
+        "promisc_mode": "Promiscuous mode",
+        "timeout": "Timeout (ms)",
+        "filter": "Capture filter",
+        "max_frame_size": "Maximum packet size (KB)",
+        "capture_size": "Maximum file size (KB)",
+        "interface_select": "Connection",
+        "buffer_size": "Buffer size",
+        "direction": "Traffic type to capture",
+        "direction-options": {
+          "in-out": "Incoming and outgoing",
+          "in": "Incoming",
+          "out": "Outgoing"
+        },
+        "error-no-interface-selected": "Select interface",
+        "storage-options": {
+          "flash": "Internal storage",
+          "usb": "USB drive"
+        },
+        "output_directory": "Storage folder",
+        "storage": "Storage location"
+      },
+      "saved-notification": "Rule saved",
+      "deleted-notification": "Rule removed",
+      "flush-notification": "All rules removed",
+      "delete-confirm": "Packet capture rule will be deleted",
+      "flush-confirm": "All packet capture settings will be deleted"
+    },
+    "debugger": {
+      "header-title": "Debug mode",
+      "header-info": "The Debug mode helps support engineers with diagnostic and troubleshooting tasks. In this mode a self-test file will be generated that must be sent to technical support for analysis.",
+      "start-button": "Enable debug mode",
+      "stop-button": "Stop debugging",
+      "start-notification": "Debugging is on",
+      "stop-notification": "Debugging is off",
+      "started-at-caption": "Debugging started:",
+      "started-caption": "Debugging is in process",
+      "preparing-file-caption": "The file is being prepared for saving"
+    },
+    "usbdsl-dumpsoc": {
+      "header": "DSL modem diagnostics",
+      "description": "Diagnostics helps support engineers in troubleshooting the DSL connection. \nIt is a 10 minute process resulting in a file that should be sent to Keenetic Support for analysis.",
+      "button-stop": "Cancel diagnostics",
+      "button-start": "Start diagnostics",
+      "status-unplugged": "Modem is not connected",
+      "status-in-progress": "DSL modem diagnostics is in progress",
+      "status-completed": "Diagnostics completed",
+      "download-file": "Download file",
+      "error-code": "Error code",
+      "error": {
+        "cancelled": "Diagnostics was aborted due to reconfiguration of the interface",
+        "timed_out": "Diagnostics was aborted by timeout. Please try again.",
+        "interrupted": "Diagnostics was aborted due to system shutdown",
+        "failed": "Diagnostics failed with an error"
+      }
+    },
+    "usbdsl-statistics": {
+      "header": "DSL connection diagnostics",
+      "description": "Allows you to evaluate the quality of your DSL line.",
+      "snr-title": "Signal-to-Noise Ratio per tone, dB",
+      "bits-title": "Number of bits per tone",
+      "received": "Download",
+      "transmitted": "Upload",
+      "button-refresh": "Reload",
+      "button-show-popup": "Show",
+      "speed": "Speed",
+      "noise": "Noise level",
+      "standard": "Standard",
+      "power": "Signal power level",
+      "atten": "Signal attenuation"
+    },
+    "dsl": {
+      "header": "DSL connection diagnostics",
+      "traffic-header": "Traffic by interfaces",
+      "snr-title": "Signal-to-Noise Ratio per tone, dB",
+      "bits-title": "Number of bits per tone",
+      "received": "Download",
+      "transmitted": "Upload",
+      "button-refresh": "Reload",
+      "button-show-popup": "Show",
+      "speed": "Speed",
+      "noise": "Noise level",
+      "standard": "Standard",
+      "power": "Signal power level",
+      "atten": "Signal attenuation",
+      "conn-speed": "Connection speed",
+      "vdsl-profile": "VDSL Profile",
+      "training-status": "Line status",
+      "mode": "Mode"
+    }
+  }
+}
