@@ -1,0 +1,19 @@
+{
+  "iface-ip": {
+    "none": "No IP address",
+    "address": "IP address",
+    "remote-address": "Remote IP",
+    "mask": "Subnet mask",
+    "mode": "IP configuration",
+    "auto": "Automatically",
+    "auto-dhcp": "Automatic (DHCP)",
+    "static": "Manual",
+    "gateway": "Default gateway",
+    "mtu": "MTU size",
+    "ttl": "Do not decrease TTL",
+    "tcpmss": "Adjustment of TCP MSS",
+    "ipv6": "Use IPv6",
+    "show-additional-settings": "Show advanced IP settings",
+    "hide-additional-settings": "Hide advanced settings"
+  }
+}
