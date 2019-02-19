@@ -1,0 +1,22 @@
+{
+  "apps": {
+    "kabinet": {
+      "card-title": "KABiNET",
+      "card-description": "KABiNET authorizer",
+      "popup-title": "KABiNET authorizer",
+      "popup-description": "This app is intended for subscribers of the KABiNET provider and replaces the authorizer installed on the computer. Run the app and enter your password. If you have not changed it, it coincides with the password to access the statistics server which is specified in the contract.",
+      "form": {
+        "server-address": "Server IP address",
+        "set-access-level": "Set access level",
+        "access-level": "Access level",
+        "protocol-version": "Protocol version",
+        "connect-via": "Connect via",
+        "connect-via-any": "Any Internet connection"
+      },
+      "access-level": {
+        "lan": "LAN",
+        "internet": "Internet"
+      }
+    }
+  }
+}
