@@ -1,0 +1,74 @@
+{
+  "staticRoutes": {
+    "headers": {
+      "page": "Static routes",
+      "table": "User-defined routes",
+      "uploader": "Load from file"
+    },
+    "errors": {
+      "gateway-required": "Enter gateway address and\/or select the interface through which the traffic will be transmitted"
+    },
+    "notifications": {
+      "upload-error": "Failed to load routes from a file",
+      "upload-success": "New routes:"
+    },
+    "description": "Keenetic supports static routing for when you need to do manual configurations e.g. to access specific resources of your ISP or to other IP networks and nodes.",
+    "messages": {
+      "loading": "Loading...",
+      "no-static-routes": "No routes"
+    },
+    "buttons": {
+      "add-route-btn": "Create route",
+      "upload-routes-btn": "Load from file",
+      "flush-btn": "Delete all routes"
+    },
+    "routes-table": {
+      "header-ipv4": "IPv4 route table",
+      "header-ipv6": "IPv6 route table",
+      "empty": "No existing routes",
+      "columns": {
+        "destination": "Destination IP",
+        "gateway": "Gateway",
+        "interface": "Interface"
+      }
+    },
+    "any-interface": "Any",
+    "delete-confirm": "All routes will be deleted",
+    "route-properties": {
+      "default": "By default",
+      "type": "Route type",
+      "type-values": {
+        "host": "Route to host",
+        "network": "Route to network",
+        "default": "Default route"
+      },
+      "destination": "Destination IP or network",
+      "destination-values": {
+        "network": "Destination network address",
+        "host": "Destination host address"
+      },
+      "mask": "Subnet mask",
+      "gateway": "Gateway IP",
+      "interface": "Interface",
+      "metric": "Metric",
+      "auto": "Add automatically"
+    },
+    "editor-popup": {
+      "title": "Static route parameters",
+      "description": "Choose the route type and specify the destination host address. Enter the gateway IP address or select the interface through which the traffic will be routed.",
+      "hints": {
+        "auto": "Tick 'Add automatically' to apply this route when specified gateway is available."
+      },
+      "edit-new-route-btn": "Add route",
+      "edit-route-btn": "Edit route",
+      "cancel-edit-btn": "Cancel",
+      "delete-route-btn": "Delete route"
+    },
+    "uploader-subform": {
+      "title": "Load from file",
+      "description": "Routes can be downloaded from a Windows OS .bat file.<br>An example of a .bat file command: route ADD 157.0.0.0 MASK 255.0.0.0 157.55.80.1",
+      "upload-file-selected": "Upload",
+      "upload-file-input": "Select file"
+    }
+  }
+}
