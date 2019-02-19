@@ -1,0 +1,138 @@
+{
+  "wifi-settings": {
+    "ap-enabled": "Enabled",
+    "ap-disabled": "Disabled",
+    "ap-header": "Wireless network",
+    "text": {
+      "master-channel-fixed-by-wisp-2": "Determined by a 2.4 GHz Wireless ISP connection",
+      "master-channel-fixed-by-wisp-5": "Determined by a 5 GHz Wireless ISP connection",
+      "no-free-access-points": "Maximum number of wireless networks assigned. To assign further wireless networks please disable an existing wireless network in another segment.",
+      "access-points-settings-are-equal": "The name, security settings, and schedule of the 2.4 GHz and 5 GHz networks are the same."
+    },
+    "button": {
+      "bind-access-point": "Bind a wireless network to a segment",
+      "unbind-access-point": "Remove network from the segment"
+    },
+    "confirm": {
+      "unbind-access-point": "The wireless network will be removed from the segment"
+    },
+    "link": {
+      "advanced-settings-popup": "Advanced settings"
+    },
+    "general-settings-2": "General settings for 2.4 GHz Wi-Fi",
+    "general-settings-5": "General settings for 5 GHz Wi-Fi",
+    "section-header": {
+      "2": "2.4 GHz Wireless Network",
+      "5": "5 GHz Wireless Network",
+      "both": "2.4 & 5 GHz Wireless Networks"
+    },
+    "placeholder": {
+      "passkey": "Wi-Fi Password"
+    },
+    "roaming-section": {
+      "header": "Roaming for wireless devices",
+      "description": "Allows mobile clients to roam more seamlessly between access points within a single network segment.",
+      "hint": "This section allows to configure 802.11k/r/v options. For those options to work add at least one wireless network to the segment. Fast transition (802.11r) will work only for unsecured and WPA2-PSK protected networks. For dual-band devices it is required to set the same SSID, passkey & schedule for both wireless networks to enable 802.11r."
+    },
+    "form": {
+      "rrm": "Radio Resource & BSS Transition Management (802.11k/v)",
+      "ft-mode": {
+        "label": "Fast transition (802.11r)",
+        "hint": "To enable fast transition for both 2.4 & 5 GHz wireless networks the names & security settings of 2.4 GHz and 5 GHz Wi-Fi networks must be the same.",
+        "options": {
+          "disabled": "Disabled",
+          "enabled-on-wifi2": "Enabled for 2.4 GHz wireless network only",
+          "enabled-on-wifi5": "Enabled for 5 GHz wireless network only",
+          "enabled-on-both": "Enabled for both 2.4 & 5 GHz wireless networks"
+        }
+      },
+      "ft-over-ds": "Allow FT over the DS",
+      "mobility-domain-id": {
+        "label": "Mobility domain ID",
+        "description": "Defines a group of access points in this segment, which will provide the fast roaming feature."
+      },
+      "mobility-domain-key": {
+        "label": "Mobility domain key",
+        "description": "Mobility domain key description",
+        "show-key": "Show key",
+        "hide-key": "Hide key"
+      },
+      "enabled": {
+        "on": "Enabled",
+        "off": "Disabled"
+      },
+      "ssid": "Network name (SSID)",
+      "schedule": "Work schedule",
+      "hide-ssid": {
+        "label": "Hide SSID",
+        "description": "The network will not appear in the list of available networks on user devices"
+      },
+      "security-protocol": {
+        "label": "Network protection",
+        "description": "Use WPA2-PSK for maximum protection",
+        "options": {
+          "none": "Unsecured"
+        }
+      },
+      "psk": {
+        "label": "Password",
+        "show-psk": "Show password",
+        "hide-psk": "Hide password"
+      },
+      "country-code": "Country",
+      "country-code-not-selected-option": "Please select a country...",
+      "standard": "Standard",
+      "auto-rescan": {
+        "label": "Choosing the optimal channel",
+        "options": {
+          "on-device-start": "At start",
+          "dynamically": "Dynamically",
+          "every-6h": "Every 6 hours",
+          "every-12h": "Every 12 hours",
+          "every-24h": "Every 24 hours"
+        }
+      },
+      "channel": "Channel number",
+      "current-channel": "Current channel",
+      "channel-width": "Channel width",
+      "signal-power": "Signal power level",
+      "enable-wmm": {
+        "label": "Enable WMM",
+        "description": "For best performance of audio, video, and voice over Wi-Fi"
+      },
+      "band-steering": {
+        "label": "Band Steering",
+        "unavailable": "Unavailable",
+        "tooltip": "Band Steering is a technology that detects whether or not the wireless client is dual-band capable, and if it is, it will push the client to connect to the less congested 5 GHz network. Based on the signal level Keenetic will calculate the optimal band for every dual-band wireless client in real time and switch them back-and-forth between 2.4 & 5 GHz networks",
+        "bottom-description": "The names & security settings of the 2.4 GHz and 5 GHz Wi-Fi networks must be the same",
+        "options": {
+          "2": "Prefer 2.4 GHz",
+          "5": "Prefer 5 GHz",
+          "default": "By default",
+          "no": "None"
+        }
+      },
+      "enable-tx-burst": {
+        "label": "TX Burst",
+        "tooltip": "Use TX Burst feature to increase the peak data transfer rate from the Keenetic to 802.11 n/ac clients. It always works in home network, but if your ISP's hardware is not compatible with this mode, the Internet speed for Wi-Fi-enabled devices may drop."
+      },
+      "256-qam": {
+        "label": "256-QAM",
+        "tooltip": "Increases connection speed to devices that use 256-QAM modulation in the 2.4 GHz band."
+      },
+      "beamforming": {
+        "label": "Beamforming",
+        "tooltip": "Beamforming technology improves the quality of wireless communication by individually adjusting the transmitted signal for each client.<br>The checkbox enables the explicit Beamforming mode that formats a multipath Wi-Fi signal based on the feedback from wireless clients."
+      },
+      "mu-mimo": {
+        "label": "MU-MIMO",
+        "tooltip": "Increases the performance of a wireless network in the corresponding band by simultaneously transmitting data to several wireless clients."
+      },
+      "wps": "Allow WPS",
+      "wps-pin": "WPS PIN"
+    },
+    "validation-error": {
+      "not-unique-ssid": "This name is already in use"
+    }
+  }
+}
