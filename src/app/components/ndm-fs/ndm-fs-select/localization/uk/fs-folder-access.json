@@ -1,0 +1,15 @@
+{
+  "fs-select": {
+    "description-folder-select": "Choose a folder on the left side",
+    "title-folder-select": "Choose folder",
+    "title-file-select": "Select file",
+    "header-folder": "Folder",
+    "header-filename": "File",
+    "header-filesize": "Size",
+    "no-files-in-folder": "No file here",
+    "folder-not-selected": "No folder chosen",
+    "btn-select-folder": "Select folder",
+    "btn-select-file": "Choose file",
+    "no-usb-devices": "No USB devices"
+  }
+}
