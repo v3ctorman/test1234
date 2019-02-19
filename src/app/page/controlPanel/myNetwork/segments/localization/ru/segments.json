@@ -1,0 +1,119 @@
+{
+  "segments": {
+    "title": "My networks and Wi-Fi",
+    "wifi-popup-header": "{{band}} Wi-Fi of the segment '{{segment}}'",
+    "description": "By splitting your home network into segments security and performance are optimized.",
+    "form": {
+      "segment-name": "Segment name",
+      "vlan-id": {
+        "label": "VLAN ID",
+        "unused": "Not used"
+      },
+      "dhcp-mode": {
+        "label": "DHCP server",
+        "description": "Internal DHCP server automatically assigns IP addresses to the devices on your network. If you want to use a remote DHCP server, select the Relay mode",
+        "mode": {
+          "server": "Enabled",
+          "relay": "Relay",
+          "off": "Disabled"
+        }
+      },
+      "dhcp-relay": {
+        "wan": "DHCP Relay Interface",
+        "no-wan-specified": "Don't select any interface",
+        "address": "DHCP server address",
+        "settings-changed-warning": "DHCP Relay settings will be changed for all segments"
+      },
+      "ip-address": "IP address",
+      "mask": "Subnet mask",
+      "dhcp": {
+        "pool-start-address": "Starting IP of the pool",
+        "pool-size": "Address pool size",
+        "lease-time": "Lease time",
+        "gateway-address": "Gateway IP",
+        "dns-server": "DNS server"
+      },
+      "enable-nat": {
+        "label": "Use NAT",
+        "description": "To connect devices in the segment to the Internet"
+      },
+      "restrictions": {
+        "speed-limit": {
+          "label": "Maximum speed",
+          "placeholder": "Unlimited"
+        },
+        "peer-isolation": {
+          "label": "Clients isolation",
+          "hint": "Prohibits wireless clients to communicate with each other and with the wired segment"
+        },
+        "system-access": "Enable access to home network applications"
+      },
+      "igmp-proxy": {
+        "enable": "Enable",
+        "iface": "For connection",
+        "protocol": "Protocol to ISP"
+      },
+      "pppoe-pass-through": {
+        "enable": "Enable",
+        "wan": "For connection",
+        "warning": "PPPoE Passthrough will be disabled in the segment '{{segment}}'"
+      }
+    },
+    "btn": {
+      "add-segment": "Create segment",
+      "delete-segment": "Delete segment"
+    },
+    "confirm": {
+      "delete-segment": "Segment and all its settings will be removed"
+    },
+    "details": {
+      "dhcp": {
+        "show-config": "Show DHCP settings",
+        "hide-config": "Hide DHCP settings"
+      },
+      "switchports": {
+        "show-other-segments": "Show other segments",
+        "hide-other-segments": "Hide other segments"
+      }
+    },
+    "section": {
+      "switchports": {
+        "header": "Ports and VLANs settings"
+      },
+      "ip-config": {
+        "header": "IP settings",
+        "description": "Specify the IP parameters for {{segmentDescription}}",
+        "controlled-by-the-captive-portal": "Managed by Captive Portal service"
+      },
+      "restrictions": {
+        "header": "Restrictions for devices in the segment"
+      },
+      "policy": {
+        "header": "Connection policy for unregistered devices",
+        "description": "The selected profile applied to all unregistered devices that join this segment."
+      },
+      "igmp-proxy": {
+        "header": "IGMP proxy",
+        "description": "Enables a device to receive IPTV."
+      },
+      "pppoe-pass-through": {
+        "header": "PPPoE pass-through",
+        "description": "Allows segment devices to establish PPPoE connections to external servers."
+      }
+    },
+    "validation-error": {
+      "not-unique-name": "The segment with this name already exists",
+      "not-unique-vlan-id": "This VLAN ID is already in use",
+      "dhcp-pool-is-too-large": "IP pool is too big"
+    },
+    "port-mode": {
+      "access": "Belonging to segment",
+      "trunk": "Belonging with VLAN tag",
+      "excluded": "Not belonging to segment"
+    },
+    "notification": {
+      "save": "Settings saved"
+    },
+    "new-segment-name-prefix": "Segment"
+  }
+}
