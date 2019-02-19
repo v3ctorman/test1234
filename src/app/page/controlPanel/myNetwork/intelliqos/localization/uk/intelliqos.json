@@ -1,0 +1,20 @@
+{
+  "intelliqos": {
+    "title": "IntelliQoS",
+    "description": "Manages available bandwidth of your internet connection. It dynamically allocates the necessary speed for more demanding applications, e. g. to avoid delay, jitter and packet loss.",
+    "service-toggle-label": "IntelliQoS",
+    "connection-speed-section": {
+      "title": "Internet connection bandwidth",
+      "description": "IntelliQoS requires you to enter contracted bandwidth or use the 'Speed test' button."
+    },
+    "button": {
+      "test-connection-speed": "Speed test"
+    },
+    "placeholder": {
+      "speed-test-start": "Starting..."
+    },
+    "alert": {
+      "no-internet": "Cannot connect to the server. Please check your Internet connection."
+    }
+  }
+}
