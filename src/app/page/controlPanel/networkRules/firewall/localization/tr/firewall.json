@@ -1,0 +1,110 @@
+{
+  "firewall": {
+    "interface": "Interface",
+    "description": "Security can be enhanced by using the firewall through a system of rules. \nTo add a rule, select the interface on which incoming traffic will be monitored, and click 'Create rule'.\nRule priority is governed by list order. To change list order drag and drop.",
+    "headers": {
+      "page": "Firewall"
+    },
+    "notifications": {
+      "success": {
+        "save": "Rule saved",
+        "save-new": "Rule created",
+        "drop": "Rule removed",
+        "flush": "All rules removed",
+        "resort": "New rule order saved",
+        "copy": "Rules copied",
+        "move": "Rules moved",
+        "drop-multiple": "Rules deleted"
+      },
+      "error": {
+        "save": "Failed to save the rule",
+        "save-new": "Failed to create the rule",
+        "drop": "Failed to delete the rule",
+        "flush": "Failed to delete the rule",
+        "resort": "Failed to save the rule order",
+        "rule-disable-toggled": "Failed to save the settings",
+        "copy": "Failed to copy rules",
+        "move": "Failed to move rules",
+        "drop-multiple": "Failed to delete rules"
+      }
+    },
+    "confirmations": {
+      "flush": "All firewall rules for the selected interface will be removed",
+      "drop": "The rule will be deleted",
+      "copy": "Copy selected rules to the '{{interface}}' interface?",
+      "move": "Move selected rules to the '{{interface}}' interface?",
+      "drop-multiple": "Delete selected rules?"
+    },
+    "ENUM": {
+      "action": {
+        "permit": "Allow",
+        "deny": "Prohibit"
+      },
+      "address-type": {
+        "any": "Any",
+        "subnet": "Subnet",
+        "single": "IP address"
+      },
+      "port-operator": {
+        "any": "Any",
+        "eq": "Equals",
+        "gt": "Greater than",
+        "lt": "Less than",
+        "range": "Range"
+      }
+    },
+    "range": {
+      "start": "Start",
+      "end": "End",
+      "position": "Position",
+      "current": "(current position)"
+    },
+    "rule-properties": {
+      "acl": "Connection",
+      "action": "Action",
+      "protocol": "Protocol",
+      "enabled": "Enable rule",
+      "schedule": "Work schedule",
+      "source-address": "Source IP",
+      "source-address-ip": "IP address",
+      "source-address-mask": "Subnet mask",
+      "source-port-operator": "Source port number",
+      "source-port": "Value",
+      "destination-address": "Destination IP",
+      "destination-address-ip": "IP address",
+      "destination-address-mask": "Subnet mask",
+      "destination-port-operator": "Destination port number",
+      "destination-port": "Value"
+    },
+    "rule-editor-popup": {
+      "title": "Firewall rule",
+      "description": "Select an action to be performed for incoming packets and specify the conditions that trigger the action.",
+      "service-fields": {
+        "position": "Move to"
+      }
+    },
+    "buttons": {
+      "add-rule-btn": "Create rule",
+      "drop-rule-btn": "Delete this rule",
+      "flush-rules-btn": "Delete all rules",
+      "drop-rules-btn": "Delete selected rules"
+    },
+    "actions": {
+      "copy-selected-rules": "Copy to",
+      "move-selected-rules": "Move to"
+    },
+    "rule-table": {
+      "columns": {
+        "index": "No.",
+        "isEnabled": "Enabled",
+        "action": "Action",
+        "protocolName": "Protocol",
+        "sourceAddress": "Source IP",
+        "sourcePorts": "Source port",
+        "destinationAddress": "Destination IP",
+        "destinationPorts": "Destination port"
+      },
+      "no-data": "There are no rules for the selected interface"
+    }
+  }
+}
