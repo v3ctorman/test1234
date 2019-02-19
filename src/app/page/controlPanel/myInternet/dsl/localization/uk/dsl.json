@@ -1,0 +1,59 @@
+{
+  "dsl": {
+    "description": "Configure the DSL connection for ISP Internet and additional services using ADSL2+ or VDSL.",
+    "connection-status": {
+      "connected-via-adsl": "Connected via ADSL",
+      "connected-via-vdsl": "Connected via VDSL"
+    },
+    "mode": {
+      "auto": "Auto"
+    },
+    "form": {
+      "description": {
+        "label": "Provider name",
+        "comment": "You may rename this connection at your will."
+      },
+      "dsl-mode": {
+        "comment": "If the '{{autoModeName}}' mode is chosen, you will not lose the Internet connection after your ISP switches from ADSL to VDSL technology or vice versa."
+      },
+      "vpi": "<b>ADSL</b> VPI",
+      "vci": "<b>ADSL</b> VCI",
+      "encapsulation": "<b>ADSL</b> Encapsulation",
+      "vlan": "<b>VDSL</b> VLAN"
+    },
+    "link": {
+      "select-another-isp-link": "Run the Initial Setup Wizard to select another DSL ISP",
+      "set-internet-access-schedule": "Set up a schedule for Internet access"
+    },
+    "igmp-proxy": {
+      "header": "IGMP Proxy",
+      "enable": "Enable IGMP Proxy",
+      "protocol": "Protocol to ISP",
+      "segments-list": "Enable for the segments"
+    },
+    "section": {
+      "line": {
+        "show-additional-settings": "Show additional line settings",
+        "hide-additional-settings": "Hide additional line settings"
+      },
+      "switchports": {
+        "header": "Network ports",
+        "iptv-description": "To configure an IPTV service you may need to specify the network port to which the TV set-top box is connected."
+      }
+    },
+    "add-connection-link": "Add a connection",
+    "invalid-subform-warning": "There are some problems with the configuration of this service. You should check it out",
+    "role": {
+      "inet": {
+        "description": "These settings are automatically set when you select an ISP, but you can set them manually. Usually they are specified in your contract with the ISP."
+      },
+      "iptv": {
+        "description": "These settings are automatically set when you select an ISP, but you can set them manually. Usually they are specified in your contract with the ISP. You can add up to 3 connections.",
+        "dedicated-port-description": "If the IPTV does not work with these settings, assign a dedicated port for the set-top box. The port selection is below."
+      },
+      "voip": {
+        "description": "You may configure a connection to your ISP’s VoIP service here."
+      }
+    }
+  }
+}
