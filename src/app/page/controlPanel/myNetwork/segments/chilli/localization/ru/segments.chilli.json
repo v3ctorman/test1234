@@ -1,0 +1,37 @@
+{
+  "segments": {
+    "chilli": {
+      "profile": "Profile",
+      "enabled": "Enable",
+      "option-my-profile": "My profile",
+      "show-advanced-settings": "Show profile",
+      "uamdomain-description": "The list of domains allowed for access by unauthorized users.",
+      "uamallowed-description": "The list of resources allowed for access by unauthorized users.",
+      "uamdomain-add": "Add domain",
+      "uamallowed-add": "Add resource",
+      "uamallowed-table-header": "Address of the allowed resource",
+      "uamdomain-table-header": "Address of the allowed domain",
+      "used-in-other-segment": "Captive Portal is used in another segment.",
+      "switch-to-this-segment": "Switch to this segment",
+      "description": "Gives the ability to organize a public Wi-Fi zone with user authorization.",
+      "title": "Captive portal",
+      "advanced-settings-popup-title": "Captive Portal settings",
+      "advanced-settings-popup-main-subtitle": "Basic settings",
+      "cant-update-profiles": "Captive portal profiles not received. No connection to the server",
+      "uamallowed": "UAM Allowed",
+      "uamdomain": "UAM Domain",
+      "uamserver": "UAM Server",
+      "uamsecret": "UAM Secret",
+      "radiusserver1": "RADIUS server 1",
+      "radiusserver2": "RADIUS server 2",
+      "radiussecret": "RADIUS Secret",
+      "radiusnasid": "RADIUS NAS ID",
+      "radiuslocationname": "RADIUS location name",
+      "radiuslocationid": "RADIUS location ID",
+      "dns1": "DNS 1",
+      "dns2": "DNS 2",
+      "uamallowed-invalid": "Invalid resource specifier",
+      "customize-profile": "Edit profile"
+    }
+  }
+}
