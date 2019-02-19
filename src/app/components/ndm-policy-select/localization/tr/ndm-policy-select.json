@@ -1,0 +1,6 @@
+{
+  "ndm-policy-select": {
+    "label": "Connection policy",
+    "policy-interfaces-order": "Connection priorities"
+  }
+}
