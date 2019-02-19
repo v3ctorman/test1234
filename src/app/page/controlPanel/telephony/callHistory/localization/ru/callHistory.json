@@ -1,0 +1,30 @@
+{
+  "dect": {
+    "call-history": {
+      "title": "Call history",
+      "description": "Call history since the Keenetic was last switched on.",
+      "table": {
+        "call": "Call",
+        "status": "Status",
+        "time": "Time",
+        "handset": "Handset",
+        "line": "Line",
+        "no-items": "No calls"
+      },
+      "buttons": {
+        "clear-all": "Clear log",
+        "download": "Save the log"
+      },
+      "not_answered": "Not answered",
+      "rejected": "Rejected",
+      "missed": "Missed",
+      "common_call": "All call",
+      "forwarded": "Forwarded<br> {{number}}",
+      "today": "Today,<br> {{time}}",
+      "yesterday": "Yesterday,<br> {{time}}",
+      "in": "Incoming",
+      "out": "Outgoing",
+      "out-not-answered": "Incoming, not answered"
+    }
+  }
+}
