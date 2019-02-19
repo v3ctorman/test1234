@@ -1,0 +1,16 @@
+{
+  "ip": {
+    "header": "IP settings",
+    "description": "Specify the Keenetic's IP in the home network or choose the automatic IP settings configuration.",
+    "title-ip-config": "IP and DNS settings",
+    "mode": "IP configuration",
+    "modes": {
+      "static": "Manual",
+      "auto": "Automatic (DHCP)"
+    },
+    "address": "IP address",
+    "mask": "Subnet mask",
+    "gateway": "Default gateway",
+    "dns": "DNS"
+  }
+}
