@@ -1,0 +1,20 @@
+{
+  "opkg": {
+    "page-header": "OPKG package manager",
+    "page-description": "Allows you to install OpenWRT packages to extend the functional capabilities of your Keenetic.<br>Keenetic does not offer technical support for OPKG packages, but you can find information on open packages on Keenetic at our forum: \n{{forumLink}}.",
+    "form-header": "Basic settings",
+    "form": {
+      "disk": {
+        "label": "Drive",
+        "disk-not-selected-option": "Not selected",
+        "not-connected": "The drive is not connected"
+      },
+      "initrc-path": "Initrc script"
+    },
+    "users-table-header": "Users",
+    "users-table": {
+      "user": "User",
+      "opkg-access": "Access"
+    }
+  }
+}
