@@ -1,0 +1,49 @@
+{
+  "system": {
+    "sysmode": {
+      "header": "Change operating mode",
+      "description": "Your Keenetic has 4 selectable operating modes (Main + 3 additional options described below).",
+      "switch-mode-button": "Change operating mode",
+      "use-hardware-switch-to-switch-mode": "To change the operating mode of this Keenetic, use the switch on the back of the device.",
+      "title": "{{mode}}",
+      "router": "Router Mode",
+      "router-subtitle": "Main",
+      "router-description": "For main household Wi-Fi router.",
+      "client": "Adapter Mode",
+      "client-subtitle": "Ceases to operate as a router!",
+      "client-description": "For connection of non-Wi-Fi enabled devices to a wireless network.",
+      "repeater": "Repeater Mode",
+      "repeater-subtitle": "Ceases to operate as a router!",
+      "repeater-description": "For expanding the wireless network of another Keenetic.",
+      "ap": "Access Point Mode",
+      "ap-subtitle": "Ceases to operate as a router!",
+      "ap-description": "For creating a new Wi-Fi network or to increase the coverage of an existing one.",
+      "alert": {
+        "title": "Operating mode change",
+        "description-repeater": "The device will restart in the Repeater mode",
+        "description-router": "The device will restart in the Router mode",
+        "description-client": "The device will restart in the Adapter mode",
+        "description-ap": "The device will restart in the Access Point mode",
+        "yes": "Change mode",
+        "no": "Cancel",
+        "reboot": {
+          "title": "Rebooting the Keenetic",
+          "description": "Keenetic is being rebooted",
+          "yes": "Change mode",
+          "no": "Cancel",
+          "status": "Reboot",
+          "status-completed": "The operating mode is changed"
+        }
+      },
+      "finish-notice-alert": {
+        "title": "The address of the web-configurator has changed",
+        "title-in-process": "Operating mode change",
+        "router": "The Keenetic has been switched to the Router mode. It is now available at http://my.keenetic.net/.",
+        "client": "<h3>Connecting a Keenetic in Wi-Fi Adapter mode to your home network</h3>\n<ol>\n<li>Place the Keenetic in Wi-Fi Adapter mode within the coverage of your Wi-Fi network.</li>\n<li>Press the Wi-Fi button on the main Keenetic device and the Keenetic in Wi-Fi Adapter mode.</li>\n<li>The Internet indicator on the Keenetic in Wi-Fi Adapter mode will light up when connection is successful.</li>\n<li>All network ports of the Keenetic in Wi-Fi Adapter mode can be used to connect your home devices.</li>\n</ol>",
+        "repeater": "<h3>Connecting a Keenetic in Repeater mode to your home network</h3>\n<ol>\n<li>Place the Keenetic in Repeater mode at a point within the coverage of your Wi-Fi home network and toward the area you want to get stronger Wi-Fi signal.</li>\n<li>Press the Wi-Fi button on the main Keenetic device and the Keenetic in Repeater mode.</li>\n<li>The Internet indicator on the Keenetic in Repeater mode will light up when connection is successful.</li>\n<li>Wi-Fi settings will be sent and copied from the main Keenetic, giving you continuous coverage without the need to change the settings of moving connected wireless devices.</li>\n<li>All network ports of the Keenetic in Repeater mode can be used to connect your home devices.</li>\n</ol>",
+        "ap": "<h3>Connecting a Keenetic in Access point mode to your home network</h3>\n\t<ol>\n\t\t<li>A Keenetic in Access point mode can be connected to the main Keenetic using an Ethernet cable and an appropriate network ports.</li>\n\t\t<li>If the connection is successful, the Internet indicator of the Access point will light up.</li>\n\t\t<li>Wireless devices are connected to the Access point using the Wi-Fi network settings specified on the label. You can also change these settings.</li>\n\t </ol>",
+        "common": "<p>After changing the operating mode, the web interface of your Keenetic will be available at a new IP address:<ul><li>When connecting to your home network this address is set by the main Keenetic router, and shown on its web interfcace;</li><li>When disconnected from your home network, you must use the temporary IP 192.168.1.3. Before you can access this temporary IP you must set your computer IP address somewhere between 192.168.1.4 and 192.168.1.254.</li><li>Please note that Keenetic has a separate independent configuration file for each operating mode. The administrator password is empty by default, and if set, it is saved independently for each mode.</li></ul></p>"
+      }
+    }
+  }
+}
