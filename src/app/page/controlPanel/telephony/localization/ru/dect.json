@@ -1,0 +1,15 @@
+{
+  "dect": {
+    "state": {
+      "running": "Telephony service is running",
+      "disabled": "Telephony service is off",
+      "starting": "Telephony service starts",
+      "stopping": "Telephony service is shutting down",
+      "not-configured": "The telephony service is not configured",
+      "unplugged": "USB dongle is unplugged",
+      "rebooting": "USB module is restarted",
+      "fw-update": "Updating USB module software",
+      "unknown": "Telephony service is in an unknown state"
+    }
+  }
+}
