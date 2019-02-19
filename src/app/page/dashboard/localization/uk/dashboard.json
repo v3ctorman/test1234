@@ -1,0 +1,243 @@
+{
+  "dashboard": {
+    "welcome": "Welcome to the Keenetic",
+    "link-ndw": "Revert to the old design",
+    "link-support": "Support Center",
+    "mobile-apps": "My.Keenetic app:",
+    "language": "System language:",
+    "card_system": {
+      "auto-update": {
+        "label": "Auto-update",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "title": "About the system",
+      "system_mode": "Operating mode",
+      "ap": "Access point",
+      "client": "Adapter",
+      "repeater": "Repeater",
+      "model": "Model",
+      "serviceTag": "Service code",
+      "osVersion": "OS version",
+      "upTime": "Uptime",
+      "newVersion": "New version: {{version}}",
+      "updateAvailable": "Update available",
+      "cpuLoad": "CPU usage",
+      "memLoad": "RAM usage",
+      "currentTime": "Current time"
+    },
+    "card_apps": {
+      "transmission": "Transmission",
+      "dlna": "Media Server",
+      "vpn-pptp": "VPN PPTP",
+      "vpn-sstp": "VPN SSTP",
+      "vpn-ipsec": "VPN IPsec",
+      "vpn-l2tp": "VPN L2TP/IPsec",
+      "ftp": "FTP",
+      "afp": "AFP",
+      "udpxy": "UDPXY server",
+      "cifs": "CIFS/SMB",
+      "kabinet": "KABiNET",
+      "transmission-description": "Download Station",
+      "dlna-description": "Easy access to your media library stored on USB drives",
+      "vpn-pptp-description": "Internet access to home network via PPTP",
+      "vpn-sstp-description": "Internet access to home network via SSTP",
+      "vpn-l2tp-description": "Internet access to home network via L2TP/IPSec",
+      "vpn-ipsec-description": "Secure access to your home network from the Internet using IPSec XAuth protection",
+      "ftp-description": "USB Drive access via FTP",
+      "afp-description": "USB drive and printer access for Apple™ devices",
+      "udpxy-description": "Forwards IPTV multicast streams to HTTP clients",
+      "kabinet-description": "KABiNET authorizer",
+      "cifs-description": "USB drive and printer access for Windows™ devices",
+      "cloud-control-description": "Keenetic Cloud service",
+      "ntce-description": "Dynamic allocation of Internet bandwidth in the home network ",
+      "title": "Applications",
+      "header": "Applications",
+      "working": "Running",
+      "keendns-required": "Requires KeenDNS",
+      "no-disk": "No drive",
+      "no-access": "Without access",
+      "not-configured": "Not configured",
+      "disabled": "Disabled",
+      "no-apps": "Applications not installed"
+    },
+    "card_usb": {
+      "title": "USB drives and printers",
+      "no-devices": "No connected devices",
+      "usbdsl-dongle": {
+        "name": "Keenetic Plus DSL",
+        "plugged": "Connected",
+        "unplugged": "Not connected"
+      }
+    },
+    "card_wifi": {
+      "title": "Wi-Fi",
+      "password": "Password",
+      "wps-hint": "Select 'WPS Button' to automatically configure the connection with an Android, Windows, or any other devices allowing configure wireless connection by pushing a WPS button.",
+      "wifi-disabled-by-button": "Wireless is disabled by hardware button",
+      "wifi2-title": "2.4 GHz band",
+      "wifi5-title": "5 GHz band",
+      "hide": "Hide",
+      "show-password": "Show password",
+      "no-password": "The password is not set",
+      "connection": "Please connect...",
+      "theend": "Complete",
+      "start-wps": "WPS"
+    },
+    "card_segments": {
+      "segments": "My networks and Wi-Fi",
+      "wifi": {
+        "password": "Password",
+        "wps-hint": "Select 'WPS Button' to automatically configure the connection with an Android, Windows, or any other devices allowing configure wireless connection by pushing a WPS button.",
+        "wifi-disabled-by-button": "Wireless network is disabled by hardware button",
+        "wifi2-title": "2.4 GHz band",
+        "wifi5-title": "5 GHz band",
+        "hide": "Hide",
+        "show-password": "Show password",
+        "no-password": "Password is not set",
+        "no-access-points-included": "No wireless access points are assigned to this segment",
+        "connection": "Please connect...",
+        "theend": "Complete",
+        "connection-info": {
+          "link-name": "Show connection info",
+          "alert-title": "Connection information for the <nobr>'{{ssid}}'</nobr> {{range}} Wi-Fi network",
+          "alert-print": "Print",
+          "copy-psk-to-clipboard": "Сopy password",
+          "qr-code-description": "Scan this QR code with your phone's camera to connect to the Wi-Fi network.",
+          "add-logo-for-print": "Add logo"
+        },
+        "start-wps": "WPS",
+        "stop-wps": "Stop WPS session",
+        "wps-disabled": "WPS is disabled for this wireless network. You can enable it on the {{segmentLinkOpen}}segment's settings{{segmentLinkClose}} page."
+      },
+      "hosts": {
+        "title": "Online devices",
+        "title_special_mode": "Connected devices",
+        "wired": "Wired",
+        "unregistered": "Unregistered"
+      }
+    },
+    "card_internet": {
+      "no-connections": "There are no active connections",
+      "restart-modem": {
+        "link": "Reboot",
+        "confirm": "Modem '{{modem}}' will restart"
+      },
+      "renew-address": {
+        "link": "Reload",
+        "confirm": "Connection '{{connection}}' will be interrupted"
+      },
+      "restart-iface": {
+        "link": "Reboot",
+        "confirm": "'{{iface}}' connection will be restarted"
+      },
+      "special-modes": {
+        "iface-state": "Status",
+        "internet-access": "Internet",
+        "internet-access-ok": "Available",
+        "internet-access-fail": "Not available",
+        "repeater": {
+          "bssid": "BSSID",
+          "ssid": "@:wifiClient.network-name",
+          "channel": "@:wifiClient.channel",
+          "rssi": "Signal level",
+          "mac": "@:dashboard.card_internet.mac",
+          "keendns": "@:dashboard.card_internet.keendns",
+          "channelWidth": "@:wifi-settings.form.channel-width",
+          "channelRate": "@:dashboard.card_internet.rate",
+          "mode": "@:wifi-settings.form.standard",
+          "address": "@:dashboard.card_internet.address",
+          "mask": "@:dashboard.card_internet.mask"
+        }
+      },
+      "title": "Internet",
+      "title_special_mode": "Network connection",
+      "inet-filter": "Internet safety",
+      "connection-reserved": "Backup connection",
+      "address": "IP address",
+      "ppp-address": "IP address ({{type}})",
+      "gateway": "Gateway",
+      "mask": "Subnet mask",
+      "status": "Status",
+      "isp-ppp-type": "Authentication type",
+      "operator": "Carrier",
+      "product": "Modem",
+      "cgi": "USB Dongle",
+      "bw": "Channel width",
+      "mode": "Standard",
+      "ap": "Access point",
+      "serverAddress": "Server address",
+      "uptime": "Uptime",
+      "cinr-rssi": "Signal (CINR/RSSI)",
+      "rssi": "Signal level",
+      "fw": "Software version",
+      "freq": "Frequency",
+      "uiccid": "LTE device ID",
+      "modem-network-type": "Network type",
+      "modem-bssid": "Base station",
+      "rate": "Channel rate",
+      "ssid": "Wireless network",
+      "receive": "Download",
+      "received": "Received",
+      "transfer": "Upload",
+      "transferred": "Sent",
+      "ddns-state": "Dynamic DNS status",
+      "ddns-name": "DDNS name",
+      "keendns": "KeenDNS name",
+      "mac": "MAC Address",
+      "via": "Connected via",
+      "dns-server": "DNS server",
+      "dns-servers": "DNS servers",
+      "close-info": "Hide details",
+      "show-info": "More details",
+      "usbdsl": {
+        "opmode": "Modulation",
+        "profile": "Profile",
+        "mode": "Mode",
+        "speed": "Speed",
+        "noise-level": "Noise level",
+        "signal-power": "Signal power level",
+        "atten": "Signal attenuation",
+        "modes": {
+          "client": "Client",
+          "server": "Server"
+        }
+      },
+      "ipv6": {
+        "addresses": "IPv6 addresses",
+        "address": "IPv6 address",
+        "prefixes": "IPv6 prefixes",
+        "prefix": "IPv6 prefix",
+        "routes": "IPv6 routes",
+        "route": "IPv6 route"
+      },
+      "sfp": {
+        "temperature": "Temperature",
+        "vcc": "Vcc",
+        "tx-bias": "Tx Bias",
+        "tx-power": "Rx Power",
+        "rx-power": "Tx Power",
+        "status": "SFP module",
+        "status-active": "Connected"
+      },
+      "types": {
+        "wired": "Using Ethernet",
+        "wisp": "Using Wi-Fi",
+        "modem": "Using USB modem",
+        "OpenVPN": "OpenVPN",
+        "IPIP": "IPIP",
+        "EoIP": "EoIP",
+        "GRE": "GRE",
+        "UsbDsl": "DSL-line",
+        "PPTP": "PPTP",
+        "L2TP": "L2TP",
+        "SSTP": "SSTP",
+        "IPsec": "L2TP/IPsec",
+        "PPPoE": "PPPoE"
+      }
+    },
+    "card_switchports": {
+      "title": "Network ports"
+    }
+  }
+}
