@@ -1,0 +1,40 @@
+{
+  "apps": {
+    "vpn-sstp": {
+      "card-title": "SSTP VPN server",
+      "popup-title": "SSTP VPN server",
+      "popup-description": "The VPN server allows authorized users to connect to resources on the home network via the Internet and allows them to use your home Internet connection. <br>Select the users to whom you want to allow access to your VPN server.",
+      "multi-login": "Multiple sign-in",
+      "nat": "NAT for clients",
+      "nat-description": "For access of the VPN server's clients to the Internet",
+      "segment-access": "Network access",
+      "pool-range-begin": "Start IP address",
+      "pool-range-size": "IP address pool",
+      "user": "User",
+      "permanent-ip": "Static IP",
+      "add-user-text": "Create user",
+      "add": "Create",
+      "dynamic-ip": "Not used",
+      "requirements": {
+        "header": "To enable the SSTP VPN server, you need to:",
+        "keendns-name": "Register {{reqLinkOpen}}a KeenDNS name{{reqLinkClose}}",
+        "keendns-with-ssl": "KeenDNS name {{reqLinkOpen}}with SSL certificate{{reqLinkClose}}",
+        "http-access": "Allow {{reqLinkOpen}}access from the Internet via HTTPS{{reqLinkOpen}}"
+      },
+      "card-address-warning": "Server address: {{ndnsName}}",
+      "status": {
+        "ssl-server-is-disabled": "SSL server isn't working",
+        "no-ssl-certificate": "SSL certificate not obtained"
+      },
+      "users-table": {
+        "user": "User",
+        "permanent-ip": "Static IP",
+        "no-ip-placeholder": "Not used",
+        "add-user-text": "Create user"
+      },
+      "validation": {
+        "user-ip-is-not-unique": "This IP is already in use"
+      }
+    }
+  }
+}

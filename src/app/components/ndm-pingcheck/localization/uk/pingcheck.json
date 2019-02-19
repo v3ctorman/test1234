@@ -1,0 +1,18 @@
+{
+  "pingcheck": {
+    "title": "Check the availability of the Internet (Ping Check)",
+    "hint": "Set up a periodic checking of a trusted resource to help Keenetic determine the availability of a WAN connection.",
+    "mode": "Mode",
+    "modes": {
+      "none": "Disabled",
+      "connect": "TCP port check",
+      "icmp": "ICMP echo (Ping)",
+      "default": "Automatic"
+    },
+    "port": "TCP port",
+    "interval": "Check interval",
+    "fails": "Trigger threshold",
+    "host": "Check IP address or domain",
+    "host-hint": "We recommend to use an IP address instead of a domain name to avoid DNS-related problems."
+  }
+}

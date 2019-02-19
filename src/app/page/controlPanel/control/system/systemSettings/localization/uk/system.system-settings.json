@@ -1,0 +1,17 @@
+{
+  "system": {
+    "system-settings": {
+      "header": "System settings",
+      "system-name": "System name",
+      "domain-name": "Domain name",
+      "language": "System language",
+      "time-zone": "Time zone",
+      "set-time-automatically": "Set the time automatically",
+      "timezone": "Time zone",
+      "date": "Date",
+      "date-hint": "Enter the date in the following format: 31-12-2017",
+      "time": "Time",
+      "time-hint": "Enter the time in the following format: 23:59:00"
+    }
+  }
+}

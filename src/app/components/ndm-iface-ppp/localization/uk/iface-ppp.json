@@ -1,0 +1,19 @@
+{
+  "iface-ppp": {
+    "type": "Type (protocol)",
+    "identity": "Username",
+    "algorithm": "Authentication",
+    "service": "Service name",
+    "peer": "Access concentrator",
+    "password": "Password",
+    "encryption": "Data encryption",
+    "ccp": "Data compression (CCP)",
+    "ipv6cp": "Enable IPv6 CP",
+    "address": "Server address",
+    "none": "None",
+    "show-additional-settings-of-PPPoE": "Show advanced PPPoE settings",
+    "show-additional-settings-of-PPTP": "Show advanced PPTP settings",
+    "show-additional-settings-of-L2TP": "Show advanced L2TP settings",
+    "hide-additional-settings": "Hide advanced settings"
+  }
+}

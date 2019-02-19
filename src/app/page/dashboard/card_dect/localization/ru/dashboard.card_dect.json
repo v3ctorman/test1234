@@ -1,0 +1,21 @@
+{
+  "dashboard": {
+    "card_dect": {
+      "title": "Telephony",
+      "dect-is-not-plugged": "DECT module is not plugged in",
+      "handsets-and-calls": "Handsets and calls",
+      "no-registered-lines": "No registered {{refLinkOpen}}lines{{refLinkClose}}",
+      "no-registered-handsets": "No registered {{refLinkOpen}}handsets {{refLinkClose}}",
+      "internal-call": "Intercom call",
+      "dect-service-disabled": "Telephony functions disabled. {{actionLinkOpen}}Enable{{actionLinkClose}}",
+      "handset-status": {
+        "online": "Registered",
+        "alerting": "Calling...",
+        "offline": "Offline",
+        "unknown": "Unknown",
+        "undefined": "Unknown",
+        "unreachable": "Without access"
+      }
+    }
+  }
+}

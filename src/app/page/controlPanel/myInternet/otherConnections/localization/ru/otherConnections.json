@@ -1,0 +1,88 @@
+{
+  "otherConnections": {
+    "header": "Other connections",
+    "description": "Configure connections to private networks and VPN servers.",
+    "no-connections": "No connection",
+    "make-ppp-an-isp-tunnel-confirm-text": "The selected connection may be related to the provider settings. <br>If this is the case, select 'Bind to Provider'.",
+    "make-ppp-an-isp-tunnel-confirm-yes-btn": "Bind to Provider",
+    "make-ppp-an-isp-tunnel-confirm-no-btn": "Leave here",
+    "ppp": {
+      "header": "VPN connections",
+      "description": "VPN connections to remote networks.",
+      "enable": "Enabled",
+      "global": "Use for accessing the Internet",
+      "connection": "Connection",
+      "transmitted": "Sent",
+      "received": "Received",
+      "connected": "Connected",
+      "editor": {
+        "pppoe-service": "Service name",
+        "connection-name": "Connection name",
+        "header": "VPN connection settings",
+        "description": "Specify the registration data issued by the VPN server administrator",
+        "show-advanced-settings": "Show advanced settings",
+        "hide-advanced-settings": "Hide advanced settings",
+        "openvpn": {
+          "config": "OpenVPN Configuration",
+          "accept-routes": "Obtain routes from the remote side"
+        }
+      },
+      "add-button": "Create connection",
+      "any": "Any Internet connection",
+      "via": "Connect via",
+      "type": "VPN type"
+    },
+    "ipsec": {
+      "header": "IPsec connections",
+      "notice": "IPsec VPN can be used to interconnect multiple networks securely over the Internet or to give access for remote users.",
+      "enable": "Enabled",
+      "route": "Gateways",
+      "name": "Domain name",
+      "mode": "Mode",
+      "local-network": "LAN",
+      "remote-network": "Remote network",
+      "rekey-time": "Rekey time, Phase 1 / Phase 2",
+      "error": {
+        "invalid-name": "Invalid characters",
+        "remote-gateway-used": "This gateway is already in use",
+        "name-used": "This name is already in use"
+      },
+      "editor": {
+        "header": "IPsec connection setup",
+        "wait-connection": "Wait for a connection from a remote peer",
+        "autoconnect": "Autoconnect",
+        "name": "Domain name",
+        "nailed-up": "Nailed-up",
+        "remote-gateway": "Remote gateway",
+        "dead-peer": "Dead peer detection (DPD)",
+        "dead-peer-interval": "Checking interval",
+        "local-identity-type": "Local gateway ID",
+        "remote-identity-type": "Remote gateway ID",
+        "identity-option-address": "IP address",
+        "identity-option-fqdn": "FQDN",
+        "identity-option-dn": "DN",
+        "identity-option-email": "Email",
+        "identity-option-any": "Any",
+        "remote-gateway-address": "Remote gateway IP",
+        "ike-psk": "PSK key",
+        "ike-version": "IKE protocol",
+        "ike-lifetime": "IKE lifetime",
+        "ike-encryption": "IKE encryption",
+        "ike-integrity": "IKE integrity",
+        "ike-dh-group": "Diffie-Hellman (DH) group",
+        "x-auth-mode": "XAuth mode",
+        "x-auth-identity": "XAuth username",
+        "x-auth-password": "XAuth password",
+        "negotiation-mode": "Negotiation mode",
+        "mode": "Mode",
+        "sa-lifetime": "SA lifetime",
+        "sa-encryption": "SA encryption",
+        "sa-integrity": "SA integrity",
+        "local-network-ip": "Local subnet IP",
+        "remote-network-ip": "Remote subnet IP",
+        "phase1": "Phase 1",
+        "phase2": "Phase 2"
+      }
+    }
+  }
+}

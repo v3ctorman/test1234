@@ -1,0 +1,8 @@
+{
+  "ndm-dsl-isp-select": {
+    "country": "Country",
+    "provider": "Provider",
+    "login": "Login",
+    "password": "Password"
+  }
+}

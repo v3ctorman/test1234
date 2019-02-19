@@ -1,0 +1,159 @@
+{
+  "apps": {
+    "share-mount-should-be-unique": "This folder is already shared",
+    "share-label-should-be-unique": "Share resource name must be unique",
+    "vpn-no-clients": "No active connections",
+    "vpn-user-is-not-connected": "Not connected",
+    "title": "Applications",
+    "applications": "Applications",
+    "no-apps-in-sysmode": "No applications available for '{{sysmode}}' operating mode",
+    "anon-access-granted": "Open access without a password",
+    "access-granted": "Access open:",
+    "access-restricted": "User access closed",
+    "device-unmounted": "Now the drive can be disconnected",
+    "folder-select": "Select",
+    "not-configured": "The application is not configured",
+    "statistic": "Connection statistics",
+    "access": "Access",
+    "popups": {
+      "base-settings": "Basic settings",
+      "users": "Users"
+    },
+    "ftp": {
+      "card-title": "FTP server",
+      "popup-title": "FTP server",
+      "popup-description": "Provides access to files on USB drives via FTP. Select the users to allow them access to your FTP server, or allow anonymous access to all removable USB drives.",
+      "port": "Port",
+      "access-title": "Access permission settings",
+      "allow-internet-access": "Allow access from the Internet",
+      "allow-anon-access": "Anonymous access",
+      "allow-inet-access": "Allow access from the Internet",
+      "user": "User",
+      "add": "Create",
+      "any-folder": "All folders",
+      "storage-folder": "File folder",
+      "add-user-text": "Create user",
+      "user-folder": "Home directory",
+      "user-directory": "Select the home directory for the user to grant access to this directory via FTP"
+    },
+    "afp": {
+      "card-title": "Apple network",
+      "popup-title": "Apple network",
+      "popup-description": "Provides home network devices with access to files on a USB drive using Apple File Protocol (AFP) including Time Machine backup support.",
+      "automount": "Auto-mount new USB drives",
+      "allow-anon-access": "Anonymous access",
+      "hostname": "Server name",
+      "domainname": "Workgroup",
+      "shares": {
+        "title": "Shared access",
+        "folder": "Shared folder",
+        "name": "Shared resource name",
+        "activity": "Activity",
+        "add": "Add shared resource",
+        "not-selected": "Shared resources not selected"
+      },
+      "user": "User",
+      "printers": "Printers",
+      "add": "Create",
+      "add-user-text": "Create user"
+    },
+    "torrent": {
+      "card-title": "Download Station",
+      "popup-title": "Download Station",
+      "popup-description": "Download Station uses a connected USB drive for downloading and sharing files in BitTorrent networks. Manage your files by selecting 'Go to downloads' on the Download Station tab.",
+      "peer-port": "Peers port",
+      "rpc-port": "Management TCP port",
+      "access-title": "Access permission settings",
+      "allow-internet-access": "Allow access from the Internet",
+      "user": "User",
+      "restore-settings": "Restore settings.json",
+      "restore-settings-confirm": "The settings in the setting.json file will be restored",
+      "restore-settings-success": "File setting.json has been restored.",
+      "storage-folder": "File storage folder",
+      "torrents-management": "Go to downloads",
+      "directory-error": "Folder not found",
+      "select-directory": "Select folder",
+      "add-user-text": "Create user"
+    },
+    "dlna": {
+      "card-title": "Media Server",
+      "popup-title": "Media Server",
+      "popup-description": "Media Server provides convenient access to movies, music, and photos stored on USB drives connected to your Keenetic.",
+      "port": "TCP port",
+      "server-name": "Media Server name",
+      "mediateka": "Media library",
+      "mediateka-description": "Select folders containing media files on USB drives to make them available on all media players in your home network.",
+      "mediateka-setup": "Path to the media library database",
+      "mediateka-setup-description": "By default, the database is stored in the first folder of your media library. Specify another path if necessary.",
+      "content": "Content",
+      "content-types": {
+        "any": "Any",
+        "video": "Video",
+        "audio": "Music",
+        "images": "Photos"
+      },
+      "select-db-directory": "Select folder",
+      "directory": "The media files folder",
+      "directory-error": "Folder not found",
+      "add-directory": "Add folder",
+      "scanning": "Scanning in progress",
+      "rescan-all": "Rescan",
+      "dir-not-selected": "Working folder is not selected",
+      "dir-not-exists": "The working folder is not available",
+      "update-db": "Update media library",
+      "scan-directory-description": "Use the {{rescanButtonLabel}} button if you want to rebuild the Media Server database. The indexing of all files can take some time."
+    },
+    "vpn": {
+      "card-title": "PPTP VPN server",
+      "popup-title": "PPTP VPN server",
+      "popup-description": "The VPN server allows authorized users to connect to resources on the home network via the Internet and allows them to use your home Internet connection. <br>Select the users to whom you want to allow access to your VPN server.",
+      "multi-login": "Multiple sign-in",
+      "mppe-required": "With encryption only",
+      "nat": "NAT for clients",
+      "nat-description": "For access of the VPN server's clients to the Internet",
+      "segment-access": "Network access",
+      "pool-range-begin": "Start IP address",
+      "pool-range-size": "IP address pool",
+      "user": "User",
+      "permanent-ip": "Static IP",
+      "add-user-text": "Create user",
+      "add": "Create",
+      "dynamic-ip": "Not used",
+      "notification": {
+        "save": "Settings saved"
+      }
+    },
+    "vpn-stat": {
+      "popup-title": "PPTP VPN server statistics",
+      "clientaddress": "IP address",
+      "username": "User",
+      "uptime": "Duration",
+      "packets": "Sent / received",
+      "bytes": "Sent / received"
+    },
+    "virtualIP": {
+      "card-title": "IPsec VPN server",
+      "popup-title": "IPsec server (Virtual IP)",
+      "popup-description": "The IPsec VPN server allows authorized users to securely connect to your home network resources over the Internet, especially from mobile devices (Android and iOS), and to use your Internet connection.<br>When configuring the connection on a mobile device, choose VPN connection type 'IPsec Xauth PSK' for Android devices, and 'IPsec' for iOS devices. Then select the users to whom you want to grant access to the VPN server.",
+      "psk": {
+        "label": "Shared IPsec key",
+        "link-change": "Edit",
+        "link-cancel-change": "Cancel",
+        "warning": "This shared key is also used by L2TP/IPsec server"
+      },
+      "pool-start": "Start IP address",
+      "pool-size": "IP address pool",
+      "dns-server": "DNS server",
+      "nat": "NAT for clients",
+      "add-user-text": "Create user",
+      "user": "User",
+      "access": "Access",
+      "notification": {
+        "save": "Settings saved"
+      }
+    },
+    "virtualIP-stat": {
+      "popup-title": "IPsec VPN server statistics"
+    }
+  }
+}

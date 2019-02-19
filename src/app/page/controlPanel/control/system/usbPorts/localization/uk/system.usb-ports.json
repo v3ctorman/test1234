@@ -1,0 +1,11 @@
+{
+  "system": {
+    "usb-ports": {
+      "title": "USB ports",
+      "description": "You can always switch the USB 3.0 port to USB 2.0 mode if the connected devices operating in USB 3.0 mode create interference and reduce the speed in the 2.4 GHz Wi-Fi network.",
+      "first-port-label": "Port 1",
+      "second-port-label": "Port 2",
+      "usb-storage-warning": "When you save the settings, the operation of USB devices will be interrupted"
+    }
+  }
+}

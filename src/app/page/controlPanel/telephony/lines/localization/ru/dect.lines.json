@@ -1,0 +1,120 @@
+{
+  "dect": {
+    "lines": {
+      "title": "Phone lines",
+      "description": "Configure SIP account/s to allow VoIP communication via DECT handsets<br>To create a new connection, select 'New line'. To change the settings of an existing line, choose it from the list.<br>The telephone line for an outgoing call is selected automatically, based on the Dial rules and line priorities. Line priority is determined by number: higher number/higher line priority. To make sure the priority and dial rule settings are correct, select 'Call routing test'.",
+      "maximum-number-of-lines-is-configured": "Maximum number of lines reached",
+      "form": {
+        "sip": {
+          "title": "General SIP settings",
+          "agent": "User's agent name",
+          "localUdpPort": "SIP UDP local port",
+          "localTcpPort": "SIP TCP local port",
+          "localTlsPort": "SIP TLS local port",
+          "rtpPortsRange": "RTP port range",
+          "stunServer": "STUN server",
+          "unescapeHash": "Send the # in ASCII format"
+        }
+      },
+      "line-status": {
+        "unavailable": "Unknown",
+        "unplugged": "DECT module is not plugged in",
+        "registered": "Registered",
+        "error": "Error ({{error}})",
+        "disabled": "Disabled"
+      },
+      "button": {
+        "add-line": "New line",
+        "delete-line": "Delete line",
+        "call-test": "Call routing test"
+      },
+      "table": {
+        "no-lines": "No telephone lines",
+        "line-name": "Telephone line",
+        "line-selection-id": "Code",
+        "digitmap-is-not-used": "Not used"
+      },
+      "options": {
+        "audio-protocol": {
+          "rtp": "RTP",
+          "srtp": "SRTP",
+          "both": "RTP or SRTP"
+        }
+      },
+      "editor-popup": {
+        "title": "Telephone line settings",
+        "description": "Specify the connection settings provided by your VoIP provider. For more details on advanced settings for phone lines, please refer to the Keenetic Plus DECT support page.",
+        "validation-error": {
+          "not-unique-name": "This line name already exists"
+        },
+        "section": {
+          "sip-account": "SIP account",
+          "nat-traversal": "NAT traversal",
+          "codecs-list": "Audio codecs",
+          "codecs-list-description": "Codecs are applied in the order in which they are listed. To change the order, drag and drop.",
+          "dial-rules": "Dial rules",
+          "priority-and-dial-rules": "Dial rules and priority of lines",
+          "call-forwarding": "Incoming call forwarding"
+        },
+        "details": {
+          "hide-voip-settings": "Hide settings",
+          "show-voip-settings": "Show settings"
+        },
+        "confirm": {
+          "delete-line": "The phone line will be deleted"
+        },
+        "form": {
+          "enable-sip-registration": "Enable SIP registration",
+          "line-name": "Line name",
+          "sip-id": "SIP User ID",
+          "display-name": "Display name",
+          "operator-preset": "Provider",
+          "custom-operator-preset": "Other",
+          "sip-reg-uri": "SIP Registrar",
+          "login": "SIP Auth ID",
+          "sip-domain": "SIP Domain",
+          "sip-proxy": "SIP proxy",
+          "sip-transport": "SIP transport",
+          "sip-tls-security": "SIP security mode",
+          "sip-audio-protocol": "Audio data transport protocol",
+          "registration-timeout": "Registration timeout",
+          "keepalive": "Keep-Alive interval",
+          "line-priority": "Line priority",
+          "line-priority-lowest": "Low",
+          "line-priority-highest": "High",
+          "line-selection-id": "Line selection code",
+          "no-line-selection-id": "None",
+          "digitmap": "Dial rule",
+          "prefix-substitution-rule": "Prefix substitute rule for incoming calls",
+          "use-stun": "Use STUN",
+          "sdp-nat-rewrite": "Get to know own public IP address from SIP server",
+          "dtmf-mode": "DTMF signal transmission method",
+          "forward-calls-always": "Unconditional",
+          "forward-calls-if-busy": "Busy",
+          "forward-calls-by-timeout": "No answer",
+          "to-number": "To number",
+          "after-x-seconds": "after",
+          "seconds": "seconds",
+          "do-not-disturb": "Do not disturb (DND)",
+          "is-used": "On./off.",
+          "codec": "Codec",
+          "priority": "Priority",
+          "lock-single-codec": "Negotiate a single codec for an outgoing call"
+        }
+      },
+      "call-test-popup": {
+        "title": "Call routing test",
+        "description": "The DECT module selects the outgoing call direction given your phone lines states, their dial rules and priorities, and also individual permissions for outgoing calls given to DECT handsets. Enter a telephone number and then select Test button.",
+        "phone-number": "Phone number",
+        "button": {
+          "test-number": "Test"
+        },
+        "table": {
+          "line": "Line",
+          "status": "Status"
+        },
+        "no-suitable-lines": "No matching lines"
+      }
+    }
+  }
+}

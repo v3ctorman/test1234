@@ -1,0 +1,68 @@
+{
+  "system": {
+    "buttons-and-leds": {
+      "title": "Keenetic button functions",
+      "title-leds": "The functions of Keenetic buttons and indicators",
+      "sub-title": "You can reassign the functions of the Keenetic hardware buttons by choosing the button, then selecting drop-down menu next to the pressing type you want and choosing an action.<br>The Status indicator on the Keenetic casing will guide you re. on/off status of the button you have chosen.<br>",
+      "ui": {
+        "reset-btns-link": "Choose the default values for all buttons.",
+        "reset-btns-and-leds-link": "Select the default values for all buttons and indicators.",
+        "default-values-selected": "The default values are chosen."
+      },
+      "buttons": {
+        "action": {
+          "click": "Quick pressing",
+          "double-click": "Double pressing",
+          "hold": "Long pressing"
+        },
+        "button-name": {
+          "RESET": "Reset Button",
+          "WLAN": "Wi-Fi Button",
+          "FN": "FN button",
+          "FN1": "FN1 button",
+          "FN2": "FN2 button"
+        },
+        "handler": {
+          "default": "(by default)",
+          "not-used": "Not used",
+          "not-used-by-default": "Not used (by default)",
+          "FactoryReset": "System — reset to factory settings",
+          "UnmountUsb1": "USB 1 port — ejects drives safely",
+          "UnmountUsb2": "USB port — ejects drives safely",
+          "UnmountAll": "USB port — ejects drives safely",
+          "Reboot": "System — Reboot",
+          "DlnaDirectoryRescan": "Media Server — quick search for new media files",
+          "DlnaDirectoryFullRescan": "Media Server — Rescanning of all media files",
+          "DectHandsetRegistrationToggle": "DECT — registration of the DECT handset",
+          "DectHandsetPagingToggle": "DECT — paging the DECT handsets",
+          "OpkgRunScript": "OPKG — run button.d scripts",
+          "TorrentAltSpeedToggle": "Download Station — turtle mode",
+          "WifiToggle": "Wi-Fi network — on/off",
+          "WpsStartMainAp": "Wi-Fi network — starting WPS at the 2.4 GHz access point",
+          "WpsStartMainAp5": "Wi-Fi network — starting WPS at the 5 GHz access point",
+          "WifiGuestApToggle": "Wi-Fi guest network — on/off",
+          "WpsStartStation": "Wi-Fi network — starting WPS at the 2.4 GHz client",
+          "WpsStartStation5": "Wi-Fi network — starting WPS at the 5 GHz client",
+          "TorrentClientStateToggle": "Download Station — on/off",
+          "LedToggle": "Indicators — LED on/off switch"
+        }
+      },
+      "leds": {
+        "led": "Indicator",
+        "selectbox-label": "Turns on",
+        "control": {
+          "default": "(by default)",
+          "not-used": "Never",
+          "SelectedSchedule": "When used the schedule:",
+          "SelectedWan": "If using the Internet connection:",
+          "BackupWan": "If using a backup Internet connection",
+          "UpdatesAvailable": "If an update is available",
+          "OpkgLedControl": "By the opkg_led_ctl utility",
+          "UsbPortDeviceAttached": "When a device is connected to the USB Port",
+          "Usb1PortDeviceAttached": "When a device is connected to the USB Port 1",
+          "Usb2PortDeviceAttached": "When a device is connected to the USB Port 2"
+        }
+      }
+    }
+  }
+}

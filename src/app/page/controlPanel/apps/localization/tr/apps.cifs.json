@@ -1,0 +1,27 @@
+{
+  "apps": {
+    "cifs": {
+      "card-title": "Windows network",
+      "popup-title": "Windows network",
+      "popup-description": "Provides home network devices with access to connected USB drives and printers.",
+      "automount": "Auto-mount new USB drives",
+      "allow-anon-access": "Anonymous access",
+      "hostname": "Server name",
+      "domainname": "Workgroup",
+      "shares": {
+        "title": "Shared access",
+        "folder": "Shared folder",
+        "name": "Shared resource name",
+        "activity": "Activity",
+        "add": "Add shared resource",
+        "not-selected": "Shared resources not selected",
+        "name-must-be-unique": "This shared resource name is already in use"
+      },
+      "user": "User",
+      "access": "Access to drives",
+      "printers": "Access to printers",
+      "add": "Create",
+      "add-user-text": "Create user"
+    }
+  }
+}

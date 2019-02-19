@@ -1,0 +1,90 @@
+{
+  "administrator": {
+    "title": "Keenetic user management",
+    "description": "Here you can configure passwords and rights for all users.",
+    "port-used": "The port is already in use",
+    "no-password-no-access": "Not available until you set administrator password",
+    "webaccess": {
+      "http-port": "HTTP port",
+      "telnet-port": "TELNET port",
+      "access-by-internet": "Allow access from the Internet",
+      "telnet-checkbox": "via TELNET",
+      "http-checkbox": "via HTTP",
+      "saved-success": "Settings saved",
+      "ports-header": "TCP port for managing the Keenetic",
+      "ports-description": "You can change the ports to access the Keenetic",
+      "header": "Remote access",
+      "description": "Allow access from the Internet",
+      "http-port-changed-alert": "The web configurator will be available at the new address:"
+    },
+    "list": {
+      "no-data": "User accounts have not yet been created",
+      "title": "User accounts",
+      "header-sub-title": "Managing user access to Keenetic services and applications",
+      "edit-caption": "Edit",
+      "add-button": "Create user",
+      "login-header": "Username",
+      "rights-header": "Administrator rights",
+      "rights": {
+        "yes": "Yes",
+        "no": "None",
+        "read-only": "Read only",
+        "no-password": "Password is not set"
+      }
+    },
+    "user-saved": "Settings saved",
+    "user-deleted": "The user account has been removed",
+    "user-delete-confirm": "The user account will be removed",
+    "editor": {
+      "title-admin": "Administrator",
+      "description-admin": "Select the services that are allowed for the administrator access",
+      "user-exists": "A user with this name already exists",
+      "reserved-user-name": "Reserved user name",
+      "title-add": "New user",
+      "description": "Create a user password, and select the Keenetic applications and services that the user can access by ticking the appropriate checkboxes.",
+      "login": "Username",
+      "set-password": "Set password",
+      "password": "Password",
+      "repeat-password": "Repeat password",
+      "change-password-placeholder": "Change password",
+      "delete-button": "Delete user",
+      "tags-header": "The permissions for the user",
+      "tags": {
+        "cli": "Command line",
+        "readonly": "Prohibit saving system settings",
+        "afp": "Apple home network",
+        "printers": "Printers",
+        "cifs": "Windows home network",
+        "ftp": "FTP server",
+        "http": "Web configurator",
+        "ipsec-xauth": "VPN server (IPsec XAuth)",
+        "opt": "OptWare",
+        "torrent": "Download Station",
+        "vpn": "VPN server (PPTP)",
+        "sstp": "VPN server (SSTP)",
+        "http-proxy": "HTTP Proxy",
+        "ipsec-l2tp": "VPN server (L2TP/IPsec)"
+      },
+      "tags-description": {
+        "cli": "Access to the command line (TELNET and SSH)",
+        "readonly": "Read-only access to Keenetic settings",
+        "afp": "Access to USB drives via Apple File Protocol (AFP)",
+        "printers": "Access to USB printers via SMB/CIFS",
+        "cifs": "Access to USB drives via SMB/CIFS",
+        "ftp": "Access to FTP file server",
+        "http": "Access to the Keenetic web interface",
+        "ipsec-xauth": "Access to the local network via a IPsec/XAuth VPN connection",
+        "opt": "Access to services managed by OptWare",
+        "torrent": "Access to download management",
+        "vpn": "Access to LAN via PPTP VPN connection",
+        "sstp": "Access to LAN via SSTP",
+        "http-proxy": "Access to web applications running on your network",
+        "ipsec-l2tp": "Access to LAN via a L2TP/IPsec VPN connection"
+      },
+      "tags-table-column": {
+        "name": "Access to service",
+        "description": "Description"
+      }
+    }
+  }
+}

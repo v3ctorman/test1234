@@ -1,0 +1,23 @@
+{
+  "wireless-acl": {
+    "page-title": "Wireless access control",
+    "page-description": "Controls the wireless access to each network segment based on clients' MAC addresses.<br>&bull; '{{blacklist}}' — blocks the listed devices.<br>&bull; '{{whitelist}}' — allows access for only the listed devices.<br>Attention! This security option should not be used as a substitute for Wi-Fi authentication.",
+    "segment-acl-mode": "Access control mode",
+    "add-device-button-description": "To add a device to the list, click on the button above or register them on the {{devicesListRef}} page.",
+    "acl-mode": {
+      "none": "Disabled",
+      "permit": "Whitelist",
+      "deny": "Blacklist"
+    },
+    "hosts-table": {
+      "name": "Device name",
+      "mac-address": "MAC address",
+      "is-included": "Included in the ACL",
+      "btn-include-all": "Tick all devices",
+      "btn-exclude-all": "Untick all devices"
+    },
+    "segment-acl-max-size-notice": "Maximum access control list size reached",
+    "notification-on-difference-with-ndw-acl": "The wireless ACL feature configured on this page is segment-based and is not compatible with the previously used AP-based White/Blacklists. After enabling segment-based access control, <b>the AP-based ACL settings will be disabled</b>and will remain in the device configuration file for backward compatibility.",
+    "segment-includes-no-access-points": "No wireless networks are assigned to the selected segment. You can assign a wireless network to this segment on the {{refLinkOpen}}segment settings page{{refLinkClose}}."
+  }
+}

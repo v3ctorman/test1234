@@ -1,0 +1,31 @@
+{
+  "system": {
+    "reboot": {
+      "header": "System reboot",
+      "description": "To reboot the Keenetic, click this button.",
+      "button": "Reboot",
+      "alert": {
+        "title": "Reboot",
+        "description": "The Keenetic will be rebooted",
+        "confirm-button": "Reboot",
+        "progress": {
+          "title": "Reboot",
+          "description": "The Keenetic is being rebooted"
+        }
+      }
+    },
+    "reset-to-default": {
+      "description": "To return to factory settings, select 'Reset all settings'. Regardless of the current operating mode, your Keenetic will switch back to \"Router\" mode after returning to the factory default settings.",
+      "button": "Reset all settings",
+      "alert": {
+        "title": "Deleting custom settings",
+        "description": "Factory settings are being restored. If you are managing this Keenetic device remotely, your connection will be lost.",
+        "confirm-button": "Delete settings",
+        "progress": {
+          "title": "Deleting custom settings",
+          "description": "Keenetic is being booted with factory settings"
+        }
+      }
+    }
+  }
+}

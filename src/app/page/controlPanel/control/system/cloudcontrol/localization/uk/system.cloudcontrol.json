@@ -1,0 +1,22 @@
+{
+  "system": {
+    "cloudcontrol": {
+      "title": "Keenetic Cloud service",
+      "title-v2": "Keenetic Cloud service v2 (experimental)",
+      "keendns-will-not-work": "Disabling the cloud service will make it impossible to remote access through KeenDNS name. Do you really want to disable it?",
+      "description": "Enables remote management of your Keenetic in combination with the My.Keenetic app. To load app on your mobile device go to {{myKeeneticLinkOpen}}My.Keenetic download page{{myKeeneticLinkClose}}.",
+      "description-v2": "Enables remote management of your Keenetic in combination with the new Keenetic app.",
+      "cid-label": "CID",
+      "copy-cid-link": "Copy to clipboard",
+      "cid-link-copied": "CID copied!",
+      "on": "Enabled",
+      "off": "Disabled",
+      "clients": {
+        "title": "List of the mobile devices for which remote control is allowed.",
+        "no-clients": "No registered mobile devices",
+        "name": "Host",
+        "app": "Application"
+      }
+    }
+  }
+}

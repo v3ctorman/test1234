@@ -1,0 +1,100 @@
+{
+  "wifi-system": {
+    "page-title": "Modular Wi-Fi System",
+    "page-description": "Here you can add more devices to your main Keenetic and organize a single wireless system with centralized management and monitoring.",
+    "devices-table": {
+      "columns": {
+        "name": "Device name",
+        "model": "Model",
+        "os-version": "Keenetic OS version",
+        "cpuload": "CPU load",
+        "memload": "Memory load",
+        "clients-online": "Clients",
+        "cpu-and-memory-load": "CPU | RAM load, %",
+        "uptime": "Uptime",
+        "state": "State",
+        "action": "Action"
+      },
+      "header": {
+        "controller": "Controller",
+        "members": "Nodes included in the Wi-Fi system",
+        "candidates": "Nodes available for adding to the Wi-Fi system"
+      },
+      "hint": {
+        "node-web-interface": "Click here to open node's web interface",
+        "rename": "Click here to rename this node",
+        "and-even-more-clients": "...and {{num}} more",
+        "switch-keenetic-to-special-mode-to-include-it": "Switch Keenetic connected to this controller to 'Access point' mode to include it into the Wi-Fi system. Click on the node's row to rename a node."
+      }
+    },
+    "rename-mws-device-popup": {
+      "header-node": "Enter a name for the Wi-Fi system node",
+      "header-controller": "Enter a name for the Wi-Fi system controller",
+      "rename-btn": "Rename"
+    },
+    "log-table": {
+      "mws-controller-label": "Router",
+      "description": "Shows transitions of wireless devices between the Wi-Fi system members.",
+      "service-disabled-notice": "Enable Wi-Fi system to view the transitions log",
+      "filter-placeholder": "Text to match",
+      "no-matching-events": "No matching events",
+      "log-is-empty": "Log is empty",
+      "loading": "Loading...",
+      "reset-all-filters": "Reset all filters",
+      "showing-filtered-of-total": "Showing {{filtered}} of {{total}} events",
+      "columns": {
+        "timestamp": "Timestamp",
+        "device": "Device",
+        "from": "From",
+        "to": "To",
+        "event-type": "Type"
+      },
+      "event-type": {
+        "connected": "Connected",
+        "left": "Left",
+        "transition": "Transition",
+        "pmk-cache-transition": "PMK cache transition",
+        "fast-transition": "Fast transition"
+      },
+      "time-filter": {
+        "btn-show-only-newer": "Hide events older then now",
+        "btn-show-all-events": "Show all events",
+        "showing-events-newer-then": "Showing events newer then {{time}}"
+      }
+    },
+    "tab": {
+      "devices": "Devices",
+      "log": "Transition log"
+    },
+    "toggle": {
+      "label-on": "Enabled",
+      "label-off": "Disabled"
+    },
+    "candidate-action": {
+      "acquire": "Acquire",
+      "revisit": "Re-check state"
+    },
+    "member-action": {
+      "check-update": "Check for updates",
+      "release": "Remove"
+    },
+    "candidate-action-error": {
+      "acquire": "Device acquisition failed",
+      "revisit": "Device state check failed"
+    },
+    "candidate-state": {
+      "INITIAL": "Loading",
+      "LIST_CONTINUE": "Loading",
+      "UPDATE_CONTINUE": "Updating device's operating system",
+      "UPDATE_REBOOT": "Updating device's operating system",
+      "DISCONNECTED": "Disconnected",
+      "INCOMPATIBLE": "Device's OS is incompatible",
+      "COMPATIBLE": "Compatible with the system",
+      "COMPATIBLE_UPDATE": "Compatible with the System after an OS update"
+    },
+    "notice": {
+      "device-controlled-by-mws": "This device is administered by the Wi-Fi system {{controllerLinkOpen}}controller{{controlleLinkClose}}.",
+      "parameter-controlled-by-mws": "This parameter is set by the Wi-Fi system {{controllerLinkOpen}}controller{{controlleLinkClose}}."
+    }
+  }
+}

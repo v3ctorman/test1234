@@ -1,0 +1,64 @@
+{
+  "dsl": {
+    "page-title": "DSL connection",
+    "page-description": "Configure the DSL connection for ISP Internet and additional services using ADSL2+ or VDSL. Server mode is intended for the VDSL connection of a remote modem.",
+    "toggle-on-label": "Enabled",
+    "toggle-off-label": "Disabled",
+    "subtitle-dsltype": "Basic settings",
+    "subtitle-ip": "IP settings",
+    "subtitle-ppp": "ISP authentication (PPPoE/VPN)",
+    "subtitle-inet-pvc": "PVC settings for the Internet",
+    "subtitle-vlan": "VLAN settings",
+    "subtitle-adsl": "ADSL connection",
+    "subtitle-vdsl": "VDSL connection",
+    "vlans-subtitle": "Additional services",
+    "clear-settings-button": "Clear settings",
+    "no-modem": "Make sure that Keenetic DSL Plus modem is connected to the USB port.",
+    "error-pvc-busy": "VPI/VCI pair is already in use",
+    "add-more-iptv-pvc-btn": "Add PVC for IPTV",
+    "fields": {
+      "description": "Provider name",
+      "type": "Operating mode",
+      "mode": "DSL technology",
+      "annex": "Annex",
+      "olr": "Online reconfiguration (OLR) mechanisms",
+      "vdsl-profiles": "VDSL profile",
+      "carrier": "Carrier set",
+      "psd-mask": "PSD mask",
+      "segment": "Add to segment",
+      "ip-mode": "IP settings",
+      "ip": "IP address",
+      "mask": "Subnet mask",
+      "gateway": "Default gateway",
+      "mtu": "MTU size",
+      "keep-ttl": "Do not decrease TTL",
+      "vlan-inet": "Internet",
+      "vlan-inet-placeholder": "Internet VLAN ID",
+      "vlan-iptv": "TV",
+      "vlan-iptv-placeholder": "IPTV VLAN ID",
+      "vlan-voip": "Telephony",
+      "vlan-voip-placeholder": "VoIP VLAN ID",
+      "pvc-iptv": "TV",
+      "encapsulation": "Encapsulation",
+      "pvc-voip": "Telephony",
+      "operation-mode": "DSL mode"
+    },
+    "options": {
+      "mode": {
+        "client": "Internet access",
+        "bridge": "Bridge (client)",
+        "server": "Bridge (server)"
+      },
+      "operation-mode": {
+        "ansi-dmt": "ANSI DMT",
+        "itu-dmt": "ITU DMT",
+        "glite": "G.lite",
+        "adsl2": "ADSL2",
+        "adsl2+": "ADSL2+",
+        "adsl-auto": "@:auto",
+        "vdsl-co": "Bridge (server)",
+        "vdsl-cpe": "Bridge (client)"
+      }
+    }
+  }
+}

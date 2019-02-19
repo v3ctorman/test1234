@@ -1,0 +1,85 @@
+{
+  "wired": {
+    "ui": {
+      "vlans-accordion-link": "VLANs for Internet, IP telephony and IPTV",
+      "show-additional-settings": "Show additional {{type}} settings",
+      "hide-additional-settings": "Hide additional {{type}} settings"
+    },
+    "no-more-free-switchports": "You will lose communication with the Keenetic if create a new connection on the Ethernet port to which you are currently connected",
+    "header": "Wired connections",
+    "description": "Configure connections to your ISP’s Internet and additional services.<br>For additional connections to multiple ISPs click ‘Add an ISP’",
+    "description-sockets": "If your ISP provided you with VLAN IDs for connecting to the Internet, IPTV, or IP telephony, enter these IDs in the appropriate fields and select ports for connecting IPTV set-top boxes and IP phones. Usually IPTV without VLAN doesn’t require port selection.",
+    "add-network": "Add an ISP",
+    "limit-networks": "The maximum number of networks is reached",
+    "title-setup-vlan": "Connection and VLAN",
+    "network-name": "Provider name",
+    "vlan-settings": "VLAN for IP TV and digital telephony",
+    "phone-id": "Telephony",
+    "iptv-id": "TV set-top box",
+    "telephony": "Telephony",
+    "television": "TV",
+    "television2": "TV (additional)",
+    "multicast-id": "Multicast",
+    "port-option-none": "Busy",
+    "port-option-free": "@:interface-translations.Home",
+    "port-option-inet": "Provider",
+    "port-option-voip": "Telephony",
+    "port-option-iptv": "TV set-top box",
+    "title-ip-config": "IP and DNS settings",
+    "ip-config": "IP configuration",
+    "ip-address": "IP address",
+    "ip-mask": "Subnet mask",
+    "ip-gateway": "Default gateway",
+    "mac-mode": "MAC Address",
+    "mac-address": "MAC Address",
+    "mtu": "MTU size",
+    "ttl": "Do not decrease TTL",
+    "ip6": "Enable IPv6",
+    "title-ppp-config": "ISP authentication{{pppType}}",
+    "ppp-type": "Type (protocol)",
+    "identity": "Username",
+    "password": "Password",
+    "connection-is-not-configured": "The connection is not configured",
+    "new-connection-description": "Provider",
+    "advanced-settings-show": "Advanced settings",
+    "advanced-settings-hide": "Hide advanced settings",
+    "broadband": {
+      "enter-directly": "Manual",
+      "default": "By default",
+      "get-from-pc": "Get from your PC"
+    },
+    "title-dot1x-config": "802.1x authentication",
+    "dot1x": {
+      "method": "Method of checking",
+      "identity": "Username",
+      "password": "Password"
+    },
+    "ppp": {
+      "algorithm": "Authentication",
+      "service-name": "Service name",
+      "concentrator-name": "Access concentrator",
+      "psk": "Secret key",
+      "enable-encryption": "Data encryption",
+      "ccp": "Data compression (CCP)",
+      "ipv6cp": "Enable IPv6 CP",
+      "tcp-mss": "Adjustment of TCP MSS",
+      "server-address": "Server address"
+    },
+    "NONE": "None",
+    "PPP_AUTO": "Auto",
+    "ip": {
+      "status": {
+        "success": "IP address {{address}}",
+        "fail": "IP address is not obtained"
+      }
+    },
+    "ip-remote": "Remote IP",
+    "ip-config-static": "Manual",
+    "ip-config-auto-dhcp": "Automatic (DHCP)",
+    "ip-config-auto": "Automatically",
+    "ip-config-none": "No IP address",
+    "dns": "DNS",
+    "delete-connection": "Delete connection",
+    "delete-success": "Connection deleted"
+  }
+}

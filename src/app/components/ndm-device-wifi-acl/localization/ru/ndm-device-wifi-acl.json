@@ -1,0 +1,11 @@
+{
+  "ndm-device-wifi-acl": {
+    "header": "Wireless access control",
+    "mode": {
+      "permit": "Permit",
+      "deny": "Deny"
+    },
+    "no-acls-configured": "Wireless access control is disabled. You can configure it on the {{ref}} page.",
+    "acl-is-not-enabled": "Wireless access control is disabled in this segment. {{refLinkOpen}}Configure it{{refLinkClose}}"
+  }
+}

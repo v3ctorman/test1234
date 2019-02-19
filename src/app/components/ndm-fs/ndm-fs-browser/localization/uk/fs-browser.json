@@ -1,0 +1,26 @@
+{
+  "fs-browser": {
+    "mkdir": {
+      "title": "Create new folder",
+      "description": "Input folder name"
+    },
+    "title": {
+      "folder-select": "Choose a folder on the left side",
+      "file-select": "Select file",
+      "browser": "File browser"
+    },
+    "confirm-folder-delete": "Do you really want to delete the '{{name}}' folder?",
+    "confirm-file-delete": "Do you really want to delete '{{name}}'?",
+    "confirm-file-upload-overwrite": "File '{{name}}' already exists. Do you want to overwrite it?",
+    "error": {
+      "name-exists": "A file or folder with the same name already exists"
+    },
+    "headers": {
+      "folder": "Folder",
+      "user": "User",
+      "rights": "Permissions for the selected folder",
+      "filesize": "Size"
+    },
+    "no-usb-drives": "There are no USB drives connected to the Keenetic."
+  }
+}

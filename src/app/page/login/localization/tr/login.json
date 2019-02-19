@@ -1,0 +1,21 @@
+{
+  "login": {
+    "title": "Control panel login",
+    "error": "Unable to log in. Please check your username and password.",
+    "form": {
+      "login": "Username",
+      "password": "Password",
+      "login-button": "Log in"
+    },
+    "help": {
+      "show": "Cannot log in",
+      "hide": "",
+      "help-text": "Default username is 'admin'.<br>If you forgot your password use the 'Reset' button located on the back of Keenetic to return to factory settings. Press and hold the button until the 'Status' LED starts blinking rapidly (usually after 10-12 seconds), then release the button."
+    },
+    "footer": {
+      "language": "Language:",
+      "link-support": "Support Center",
+      "mobile-apps": "Application:"
+    }
+  }
+}

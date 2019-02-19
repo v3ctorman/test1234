@@ -1,0 +1,7 @@
+{
+  "apps": {
+    "vpn-l2tp-stat": {
+      "popup-title": "L2TP/IPsec VPN server statistics"
+    }
+  }
+}

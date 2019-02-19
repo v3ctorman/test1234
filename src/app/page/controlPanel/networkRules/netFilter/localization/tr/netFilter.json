@@ -1,0 +1,119 @@
+{
+  "netFilter": {
+    "title": "Internet safety",
+    "description": "Configure secure Internet access for your home network to protect all devices and users from cyber threats.",
+    "hint": "Assign protection policies to devices in the home and guest segments. To add a device to the list, register it in the {{devicelistLinkOpen}}Device list{{devicelistLinkClose}} section",
+    "filters": {
+      "yandexdns": "Yandex.DNS",
+      "nortondns": "Norton ConnectSafe",
+      "adguard-dns": "AdGuard DNS",
+      "skydns": "SkyDNS",
+      "safedns": "SafeDNS"
+    },
+    "skydns": {
+      "account-header": "SkyDNS account",
+      "no-account": "If you do not yet have a SkyDNS account, click 'Create account' to register for free and select the categories of sites you want to block.",
+      "has-account": "I already have a SkyDNS account",
+      "sign-up-or-sign-in": "To set up SkyDNS, create an account or login to an existing one using your username and password",
+      "title": "SkyDNS",
+      "auth-error": "Authentication failed",
+      "login-is-not-set": "Login failed",
+      "popup-title": "SkyDNS account",
+      "show-account-info": "Show subscription information",
+      "hide-account-info": "Hide subscription information",
+      "popup-description": "Enter your email address and password you used to register on {{serviceLinkOpen}}SkyDNS website{{serviceLinkClose}}"
+    },
+    "safedns": {
+      "account-header": "SafeDNS account",
+      "no-account": "If you do not yet have a SafeDNS account, click 'Create account' to register for free and select the categories of sites you want to block.",
+      "has-account": "I already have a SafeDNS account",
+      "sign-up-or-sign-in": "To set up SafeDNS, create an account or login to an existing one using your username and password",
+      "title": "SafeDNS",
+      "auth-error": "Authentication failed",
+      "login-is-not-set": "Login failed",
+      "popup-title": "SafeDNS account",
+      "show-account-info": "Show subscription information",
+      "hide-account-info": "Hide subscription information",
+      "popup-description": "Enter your email address and password you used to register on {{serviceLinkOpen}}SafeDNS website{{serviceLinkClose}}"
+    },
+    "table": {
+      "device": "Host",
+      "mac": "MAC Address",
+      "profile": "Policy"
+    },
+    "button": {
+      "comein": "Log in",
+      "cancel": "Cancel",
+      "change": "Switch to another account",
+      "create": "Create account",
+      "login": "Log in"
+    },
+    "ya": {
+      "title": "Yandex.DNS",
+      "profile": {
+        "base": "Fast DNS",
+        "safe": "Secured",
+        "family": "Family-friendly"
+      }
+    },
+    "norton": {
+      "title": "Norton ConnectSafe",
+      "profile": {
+        "a": "Secured",
+        "b": "No pornography",
+        "c": "Family-friendly"
+      }
+    },
+    "adguard-dns": {
+      "title": "AdGuard DNS",
+      "profile": {
+        "standard": "No ads",
+        "family": "Family-friendly"
+      }
+    },
+    "sky": {
+      "sign-up-or-sign-in": "To set up SkyDNS, create an account or login to an existing one using your username and password",
+      "title": "SkyDNS",
+      "auth-error": "Authentication failed",
+      "login-is-not-set": "Login failed",
+      "popup-title": "SkyDNS account",
+      "show-account-info": "Show subscription information",
+      "hide-account-info": "Hide subscription information",
+      "popup-description": "Enter your email address and password you used to register on {{skydnsLinkOpen}}SkyDNS website{{skydnsLinkClose}}"
+    },
+    "reload-profiles": "Reload profiles",
+    "filter": "Service",
+    "enabled": "Filter is on: ",
+    "connection-unavailable": "Unable to connect to {{service}} service. This type of service may be restricted by your ISP.",
+    "checking-availability": "Check service availability",
+    "unreg-devices": "Unregistered devices",
+    "no-filtering": "No protection",
+    "default-profile": "Default policy",
+    "default-profile-description": "Applies to all unregistered devices",
+    "profiles-load-error": "Unable to obtain policy list",
+    "profiles-header": "Assignment of protection policies to devices",
+    "no-registered-devices": "To assign protection policies to individual devices, first {{devicelistLinkOpen}}register them{{devicelistLinkClose}}",
+    "account": "Account",
+    "tariff": "Pricing schedule",
+    "login": "Email",
+    "password": "Password",
+    "is-not-set": "Not installed",
+    "on": "Enabled",
+    "off": "Disabled",
+    "unknown": "Unknown",
+    "static-dns": {
+      "header": "DNS servers",
+      "description": "Specify custom DNS-servers that will be used by home network devices which don't have any policies applied.",
+      "address": "DNS server address",
+      "address-placeholder": "IP address",
+      "domain": "Domain",
+      "domain-placeholder": "Domain",
+      "interface": "Connection",
+      "interface-any": "Any connection",
+      "interface-placeholder": "Choose a connection",
+      "empty-list-msg": "None",
+      "add-server-btn": "Add a DNS server",
+      "remove-server-icon-title": "Remove DNS server"
+    }
+  }
+}

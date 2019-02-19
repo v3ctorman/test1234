@@ -1,0 +1,23 @@
+{
+  "apps": {
+    "printer-settings-popup": {
+      "title": "Printer setup",
+      "status": "Status",
+      "id": "Identifier",
+      "firmware": {
+        "label": "Firmware",
+        "select-btn-label": "Select",
+        "accordion-link": "HP LaserJet P1xxx firmware",
+        "description": "For HP LaserJet P1xxx printer series you should obtain firmware file in .dl format and store it on the USB drive connected to the Keenetic."
+      },
+      "name": "Printer name",
+      "connection-type": {
+        "label": "Connection type",
+        "direct": "Direct",
+        "cifs": "CIFS"
+      },
+      "port": "Port",
+      "bidirectional": "Enable bidirectional support"
+    }
+  }
+}

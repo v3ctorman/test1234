@@ -1,0 +1,36 @@
+{
+  "traffic-monitor": {
+    "page-title": "Host traffic monitor",
+    "page-description": "Allows to track Internet traffic consumption of the registered home devices. The first tab shows the top five consumers in each selected time period. You may add more tabs to display Internet traffic chart of specific devices. Make sure to {{registerDevicesLink}} first in order them to appear in the chart below.",
+    "register-devices-link": "Register devices",
+    "detail-level": "Time period",
+    "legend": {
+      "top-5-header": "Total for Top-5:",
+      "to-one-host-header": "Current device's total:"
+    },
+    "tabs": {
+      "top-devices": "Top-5",
+      "choose-new-device": "New device",
+      "add-new-device-tab-btn": "View traffic of a single device"
+    },
+    "device-list": {
+      "header": "Choose one device",
+      "filter-placeholder": "Enter a name or select from the list below",
+      "is-already-showed": "(already displayed in another tab)",
+      "show-device-button": "Show this device",
+      "description": "If you don't see your device here, check the Device list.",
+      "prompt": "You have {{notRegisteredDevicesCount}} unregistered devices that you can"
+    },
+    "chart-mode": {
+      "cumulative": "Add up upstream and downstream"
+    },
+    "rxbytes": "Download",
+    "txbytes": "Upload",
+    "scale": {
+      "3-min": "3 min",
+      "1-hour": "1 hour",
+      "3-hours": "3 hours",
+      "1-day": "1 day"
+    }
+  }
+}

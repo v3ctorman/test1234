@@ -1,0 +1,37 @@
+{
+  "usb-device-list": {
+    "title": "USB Devices",
+    "no-devices": "No USB devices",
+    "expand": "Other partitions",
+    "collapse": "Hide sections",
+    "table": {
+      "device": "Device",
+      "apps": "Application/Protocol",
+      "usb-port-and-version": "USB info",
+      "status": "Status"
+    },
+    "storage-status": {
+      "dirty": "Dirty filesystem",
+      "mounted": "Connected",
+      "disconnected": "Disconnected"
+    },
+    "printer-status": {
+      "ready": "Ready",
+      "offline": "Disabled",
+      "online": "Enabled",
+      "sys_error": "Error",
+      "error": "Error",
+      "no_paper": "No paper",
+      "unknown": "Unknown",
+      "busy": "Busy"
+    },
+    "buttons": {
+      "mount-all": "Reconnect all volumes",
+      "unmount-all": "Disconnect all volumes",
+      "mount": "Reconnect",
+      "unmount": "Disconnect",
+      "forget": "Forget"
+    },
+    "internal-storage": "Internal storage"
+  }
+}

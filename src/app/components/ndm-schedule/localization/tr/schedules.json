@@ -1,0 +1,22 @@
+{
+  "schedules": {
+    "editor": {
+      "delete-confirm": "The schedule will be deleted",
+      "delete-btn": "Delete schedule",
+      "title": "Schedule editor",
+      "overflow": "The schedule is too complicated",
+      "description": "Highlight the working hours you require access.",
+      "fields": {
+        "description": "Schedule name"
+      }
+    },
+    "select": {
+      "default-title": "Work schedule",
+      "options": {
+        "none": "Always on",
+        "add": "Add schedule"
+      },
+      "edit-caption": "Edit"
+    }
+  }
+}

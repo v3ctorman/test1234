@@ -1,0 +1,6 @@
+{
+  "ndm-selectbox-filter": {
+    "no-value-selected": "@:selectbox.select",
+    "no-suitable-options": "No matches found"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "wifi": {
+    "header2": "2.4 GHz Wi-Fi",
+    "header5": "5 GHz Wi-Fi",
+    "description": "Here you can configure Wi-Fi networks"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "apps": {
+    "vpn-l2tp": {
+      "card-title": "L2TP/IPsec VPN server",
+      "popup-title": "L2TP/IPsec VPN server",
+      "popup-description": "The VPN server allows authorized users to connect to resources on the home network via the Internet and allows them to use your home Internet connection. <br>Select the users to whom you want to allow access to your VPN server.",
+      "form": {
+        "psk": {
+          "label": "Shared IPsec key",
+          "link-change": "Edit",
+          "link-cancel-change": "Cancel",
+          "warning": "This shared key is also used by IPsec Virtual IP server"
+        },
+        "multi-login": "Multiple sign-in",
+        "nat": {
+          "label": "NAT for clients",
+          "description": "For access of the VPN server's clients to the Internet"
+        },
+        "segment": "Network access",
+        "pool-range-begin": "Start IP address",
+        "pool-range-size": "IP address pool"
+      },
+      "users-table": {
+        "user": "User",
+        "permanent-ip": "Static IP",
+        "no-ip-placeholder": "Not used",
+        "add-user-text": "Create user"
+      },
+      "validation": {
+        "user-ip-is-not-unique": "This IP is already in use"
+      },
+      "notification": {
+        "save": "Settings saved"
+      }
+    }
+  }
+}

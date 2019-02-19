@@ -1,0 +1,13 @@
+{
+  "multi-input-table": {
+    "add": "Add",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "apply": "OK",
+    "edit": "Edit",
+    "flush": "Delete all records",
+    "flush-confirm": "All entries will be deleted",
+    "default-header": "Value",
+    "empty-message": "The list is empty"
+  }
+}

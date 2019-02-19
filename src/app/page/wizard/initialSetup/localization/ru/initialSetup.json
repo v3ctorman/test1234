@@ -1,0 +1,320 @@
+{
+  "initial-setup": {
+    "page-title": "Initial Setup Wizard",
+    "btn": {
+      "proceed": "Continue",
+      "skip": "Skip",
+      "back": "Back",
+      "retry": "Retry",
+      "finish": "Complete configuration",
+      "ready": "Done"
+    },
+    "welcome": {
+      "header": "Welcome to Initial Setup Wizard",
+      "header-subtext": "Your easy to use step-by-step wizard to get your Keenetic set up.",
+      "select-language": "Select language",
+      "quick-setup-btn": "Start Setup Wizard",
+      "dashboard-link": "To configure a Keenetic on your own, go to {{dashboardLinkOpen}}control panel{{dashboardLinkClose}}.",
+      "reset-to-default": {
+        "question": "To run the Initial Setup Wizard, you must return your Keenetic to factory settings. Would you like to remove all custom settings?",
+        "confirm-button": "Restore and continue",
+        "skip-button": "Continue without restore"
+      }
+    },
+    "password": {
+      "header": "Set the administrator password for your Keenetic",
+      "description": "Creating an administrator password will prevent an unauthorized access to your Keenetic. <br><br> (The username for the default administrator account is ‘admin'.)",
+      "username": "Username"
+    },
+    "services": {
+      "header": "Select the services you intend to use",
+      "description": "",
+      "internet": "Internet",
+      "iptv": "IPTV",
+      "voip": "IP telephony"
+    },
+    "conn-type": {
+      "header": "Select your method for connecting to the Internet",
+      "kind": {
+        "dsl": {
+          "label": "ADSL2+ or VDSL2",
+          "description": "If you are using a DSL cable",
+          "error": "Connect the 'DSL' port of your Keenetic to the phone line,. If the line is already connected, contact your ISP to test your connection."
+        },
+        "ethernet": {
+          "label": "Ethernet",
+          "description": "If you are using an Ethernet cable",
+          "error": "Connect the Internet cable to port 0 of the Keenetic. If the cable is connected, contact your ISP to test your connection.",
+          "error-no-wan": "Connect the Internet cable to port 1 of the Keenetic. If the cable is connected, contact your ISP to test your connection.",
+          "error-sfp": "Connect the Internet cable to the port 0 of the Keenetic or use SFP. If the cable is connected, contact your ISP to test your connection."
+        },
+        "3g": {
+          "label": "3G/4G",
+          "description": "If you are using a USB-modem from your mobile provider",
+          "error": "Make sure that a working modem is connected to a USB port.<br>Compatible modem models are listed on the customer support page of your Keenetic."
+        },
+        "usbdsl": {
+          "label": "ADSL2+ or VDSL2",
+          "description": "If you are using a Keenetic Plus DSL USB modem",
+          "error": "Make sure that Keenetic DSL Plus modem is connected to the USB port."
+        },
+        "special-modes": {
+          "label": "Additional modes",
+          "description": "Additional modes are used to expand the existing Wi-Fi network of another Keenetic or to connect devices without a built-in Wi-Fi to the network."
+        }
+      },
+      "special-modes-link": "To use your Keenetic in different modes,<br>go to: {{modesLinkOpen}}Changing to an additional operating mode{{modesLinkClose}}."
+    },
+    "special-modes": {
+      "header": "Changing to an additional operating mode",
+      "description": "Additional modes are used to expand the existing Wi-Fi network of another Keenetic or to connect devices without a built-in Wi-Fi to the network.",
+      "modes": {
+        "ap": "Access point &ndash; for expanding the wireless network using an Ethernet connection",
+        "repeater": "Repeater &ndash; for expanding the wireless network",
+        "client": "Adapter &ndash; for connection of non-Wi-Fi enabled devices to your wireless network"
+      }
+    },
+    "dsl-type": {
+      "header": "Select the DSL modem operating mode",
+      "description": "Check your ISP contract for DSL modem operating mode options.",
+      "type": {
+        "adsl": "Internet via ADSL",
+        "vdsl": "Internet via VDSL"
+      },
+      "encapsulation": "Encapsulation",
+      "encapsulation-type": {
+        "aal5snap": "LLC (by default)",
+        "aal5mux": "VC"
+      }
+    },
+    "dsl-adsl-subtype": {
+      "header": "Select the ADSL standard used by your ISP"
+    },
+    "adsl-vpi-vci": {
+      "header": "Select VPI/VCI values for connecting to the Internet",
+      "description": "Check your ISP contract for VPI/VCI values.",
+      "manual-input": "Enter manually",
+      "vpi": "VPI",
+      "vci": "VCI"
+    },
+    "conn-subtype": {
+      "header": "Select your Internet connection type",
+      "description": "Check your ISP contract for connection type and credentials. If no connection type is listed, select '{{ipoeL10nId}}'.",
+      "subtype": {
+        "ipoe": "Without password",
+        "pppoe": "PPPoE connection",
+        "pptp": "VPN connection (PPTP)",
+        "l2tp": "VPN connection (L2TP)",
+        "auth802.1x": "802.1 x authorization"
+      },
+      "form": {
+        "server-address": "VPN server address"
+      }
+    },
+    "setup-mac": {
+      "header": "Select the MAC address",
+      "description": "Change MAC-address of the Keenetic, if another device, such as your computer, was registered with the ISP.",
+      "options": {
+        "default-mac": {
+          "label": "By default",
+          "description": "MAC Address: {{address}}"
+        },
+        "manual-input": {
+          "label": "Change the MAC address",
+          "description": "Required if a different device is registered with the ISP"
+        }
+      }
+    },
+    "setup-ip": {
+      "header": "Configure your IP settings",
+      "description": "If your ISP has issued you with an IP address, select the manual configuration option. If the connection uses PPPoE, select 'Without an IP (PPPoE)' option. In all other cases select 'Automatic' option.",
+      "description-dsl": "If your ISP has issued you with an IP address, select the manual configuration option.",
+      "ip-type": {
+        "static-ip": "Manual",
+        "dynamic-ip": "Automatic",
+        "no-ip": "Without an IP (PPPoE)"
+      },
+      "select-netmask": "Select",
+      "form": {
+        "ip-type": "IP configuration",
+        "address": "IP address",
+        "mask": "Subnet mask",
+        "gateway": "Default gateway",
+        "dns": "DNS server"
+      }
+    },
+    "logon": {
+      "header": "Entering your ISP supplied username and password",
+      "description": "The password for accessing your ISP Internet service (one-off or occasional use, may differ from the password used to access your personal account with the ISP, may contain both lowercase and uppercase letters).",
+      "no-auth": "Unauthorized",
+      "auth-type": "Authorization type",
+      "login": "Username",
+      "password": "Internet access password",
+      "server-address": "VPN server address",
+      "access-concentrator": "PPPoE access concentrator",
+      "service-name": "PPPoE service name"
+    },
+    "g3-operator": {
+      "header": "Select country and operator",
+      "description": "To set up the Internet, select the country and operator to which you are connecting.",
+      "country": "Country",
+      "operator": "Carrier"
+    },
+    "setup-vlans": {
+      "header": "VLAN options",
+      "header-vdsl": "VLAN options",
+      "description": "This setup is required if your ISP has issued you with VLAN IDs for Internet access and/or IPTV.",
+      "options": {
+        "skip": {
+          "label": "Skip this step",
+          "description": "IPTV and IP telephony from the ISP are not needed"
+        },
+        "setup-no-vlan": {
+          "label": "Connecting without VLAN",
+          "description": "Provider has not issued VLAN IDs"
+        },
+        "setup-vlan": {
+          "label": "To configure VLAN",
+          "description": "The ISP has issued VLAN numbers for one or more services",
+          "form-description": "Enter at least one VLAN ID"
+        }
+      },
+      "form": {
+        "inet-vlan": "Internet VLAN ID",
+        "iptv-vlan": "IPTV VLAN ID",
+        "voip-vlan": "VoIP VLAN ID"
+      }
+    },
+    "setup-iptv-adsl-vpivci": {
+      "header": "Enter the VPI/VCI for IPTV service",
+      "description": "Check your ISP contract for VPI/VCI values for IPTV service.",
+      "error-same-vpi-vci-pair": "VPI/VCI pair is already in use",
+      "form": {
+        "vpi": "VPI for IPTV",
+        "vci": "VCI for IPTV"
+      }
+    },
+    "check-conn": {
+      "header": "Internet connection",
+      "subtitle": {
+        "inet": "Internet connection status",
+        "updates": "Update",
+        "updates-check": "Check for updates",
+        "inet-recheck": "Internet connection resuming"
+      },
+      "interface-status": "Connection status",
+      "inet-check-failed": "Try {{changeSettingsLinkOpen}}changing the settings{{changeSettingsLinkClose}} or {{dashboardLinkOpen}}go to the control panel{{dashboardLinkClose}}",
+      "inet-check-failed-so-far": "Failed to establish a connection to the Internet.<br>{{changeSettingsLinkOpen}}Check settings{{changeSettingsLinkClose}}and retry.",
+      "errors": {
+        "auth": "Authorization error. Check the settings and try to connect again."
+      },
+      "cable-error": {
+        "ethernet": "Make sure the Internet cable from ISP is connected to network port 0.",
+        "dsl": "Make sure the phone line is connected to the 'DSL' port of the device.",
+        "usbdsl": "Make sure your USB modem is connected to a telephone line.",
+        "3g": "Make sure that a working modem is connected to a USB port."
+      },
+      "3g-inet-check-failed-header": "Most common causes of connection problems are:",
+      "3g-inet-check-failed-body": "The modem is out of the service area<br>Access is blocked due to non-payment<br>A SIM card is not installed or it is not installed properly<br>Another operator's SIM card is installed in the modem<br>There is a fault in the USB modem or the USB cable",
+      "clear-settings-link": "Back to start",
+      "notifications": {
+        "inet-error": "Internet connection failure.<br>Check settings and retry.",
+        "updates-checking": "Search for updates",
+        "updates-downloading": "Downloading update",
+        "updates-applying": "Applying updates",
+        "updates-not-needed": "Update is not needed"
+      },
+      "stage": {
+        "inet": {
+          "success": "You are connected to the Internet",
+          "fail": "Failed to establish a connection to the Internet"
+        },
+        "updates": {
+          "success": "The latest Keenetic OS version installed",
+          "fail": "The latest software version installed"
+        },
+        "updates-not-needed": {
+          "success": "Latest version of software is installed",
+          "fail": "Latest version of software is installed"
+        },
+        "inet-recheck": {
+          "success": "Connected to the Internet",
+          "fail": "Failed to connect to the Internet"
+        }
+      },
+      "retry-updates-check": "Failed to install the update. Try again?",
+      "internet-setup-finished": "You are connected to the Internet",
+      "updates-finished": "The latest software version installed",
+      "confirm-set-recommended-components": "The current set of operation system components is different from the recommended one, would you like to restore the recommended setup?"
+    },
+    "check-iptv": {
+      "header": "Connecting an IPTV Set-Top Box (STB)",
+      "header-proxy": "IGMP proxy mode is enabled",
+      "header-bridge": "Network port 2 is configured for IPTV",
+      "header-fail": "Looks like something went wrong :(",
+      "description-fail": "Contact your IPTV provider to verify their connection settings.",
+      "btns": {
+        "ok": "IPTV works",
+        "fail": "No IPTV signal"
+      },
+      "step-prefix": "Step",
+      "error-check-port": "Check that IPTV STB is connected to network port 2 of the Keenetic.",
+      "messages": {
+        "start": "Does IPTV work?",
+        "success-bridge": "Congratulations!<br>Network port 2 is configured for IPTV service. Use it for connection to IPTV STB only.",
+        "success-proxy": "Congratulations!<br>You have enabled IGMP proxy mode which allows you to connect the IPTV STB to any port of the Keenetic.",
+        "fail": "Contact your TV service provider."
+      },
+      "list-items": {
+        "0": [
+          "Connect the IPTV STB using supplied cable to network port 2 of your Keenetic.",
+          "Connect your IPTV STB to the TV following the STB instruction.",
+          "Turn on the STB and TV.",
+          "Note the video input jack to which the IPTV STB is connected and use remote control to select correct input.",
+          "Use STB remote control to select a channel to check.",
+          "If the set-top box requires you to enter a PIN or activation code,<br>do it in accordance with the instructions of your IPTV provider."
+        ],
+        "1": [
+          "Important! Reboot the STB, so it picks up the new settings.",
+          "Use STB remote control to select a channel to check."
+        ]
+      }
+    },
+    "cyber-security": {
+      "header": "Protecting your home network from cyber threats",
+      "internet-filter": {
+        "none": "Unsecured",
+        "yandexdns": "Yandex.DNS",
+        "nortondns": "Norton ConnectSafe",
+        "adguard-dns": "AdGuard DNS"
+      },
+      "form": {
+        "internet-filter": "Internet safety"
+      },
+      "sub-header": "Select an Internet filter to protect devices on your home network from malicious websites",
+      "description": {
+        "yandexdns": "Yandex.DNS protects all connected smartphones, tablets, and computers from malicious websites. From now on, you can apply Family filter to individual devices to block access to adult sites, using the settings of your Keenetic. Yandex.DNS service is provided by Yandex.",
+        "nortondns": "Norton ConnectSafe protects all connected smartphones, tablets, and computers from malicious websites. From now on, you can apply Family filter to individual devices to block access to adult sites, using the settings of your Keenetic. Norton ConnectSafe service is provided by Symantec Corporation and is intended for home use.",
+        "adguard-dns": "AdGuard DNS blocks ads for all devices in your network and protects them from phishing websites. From now on, you can apply Family filter to individual devices to block access to adult sites, using the settings of your Keenetic. The AdGuard DNS service is provided by AdGuard Software Limited and is intended for home use."
+      }
+    },
+    "dsl-isp": {
+      "title": "Select your DSL provider",
+      "description": "Select your country and the ISP.<br>If your ISP is not in the list, you can configure the DSL connection manually.",
+      "manual-config": "Manual Configuration"
+    },
+    "wifi-settings": {
+      "header": "Complete the configuration",
+      "description": "Wi-Fi connection information",
+      "form": {
+        "ssid": "The name of the network",
+        "psk": "Network password"
+      },
+      "reconnect-msg": "Connect to the Wi-Fi network with the new settings",
+      "notification": {
+        "reconnected": "Communication with device is restored",
+        "warning-settings-changed": "Wi-Fi network settings saved.<br>Use them to reconnect to the Keenetic"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fs-toolbar": {
+    "mkdir": "Create folder into selection folder",
+    "download": "Download file",
+    "upload": "Upload into selection folder",
+    "permissions": "Set permission to item",
+    "trash": "Delete"
+  }
+}
