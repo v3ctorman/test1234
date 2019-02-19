@@ -1,0 +1,8 @@
+{
+  "ports-range": {
+    "invalid-number": "Enter number",
+    "wrong-range": "Enter range",
+    "single-title": "Port",
+    "range-title": "Ports"
+  }
+}
