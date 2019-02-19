@@ -1,0 +1,17 @@
+{
+  "apps": {
+    "udpxy": {
+      "card-title": "UDPXY server",
+      "card-description": "Forwards IPTV multicast streams to HTTP clients",
+      "popup-title": "UDPXY server",
+      "popup-description": "This application allows home network users to watch open IPTV channels on players which cannot receive multicast UDP streams. An IPTV channel requested by a player will be transmitted to it through an HTTP connection.",
+      "form": {
+        "port": "TCP port",
+        "timeout": "Timeout",
+        "renew-interval": "Subscription renewal interval",
+        "connect-via": "Connect via",
+        "connect-via-auto-option": "Automatic detection"
+      }
+    }
+  }
+}
