@@ -1,0 +1,24 @@
+{
+  "wifiClients": {
+    "title": "Wi-Fi clients",
+    "description": "All wireless devices connected to your Keenetic. To edit a device name, click on the dashed line.",
+    "no-data": "No connected devices",
+    "add-host-by-mac-btn": "Add device",
+    "device-name-placeholder": "Enter device name",
+    "clear-device-name-title": "Clear device name",
+    "delete-device-entry-title": "Delete device entry",
+    "confirm-clearing-device-name": "Clear '{{name}}' device name?",
+    "confirm-offline-host-removal": "Delete entry for the '{{name}}' device?",
+    "wifi-band": "Range",
+    "bandwidth": "Width ",
+    "table-columns": {
+      "device": "Host",
+      "connection": "Connection",
+      "ssid": "The name of the network",
+      "segment": "Segment",
+      "transmitted": "Sent",
+      "received": "Received",
+      "connected": "Connected"
+    }
+  }
+}

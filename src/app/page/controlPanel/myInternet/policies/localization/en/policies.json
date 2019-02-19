@@ -1,0 +1,62 @@
+{
+  "policies": {
+    "page-title": "Connection priorities",
+    "page-description": "Use connection policies to determine which ISP is available to which devices. Set priorities for your ISPs and bind your devices to policies.",
+    "link": {
+      "add-new-policy": "Add policy",
+      "show-all-consumers": "Show all objects"
+    },
+    "btn": {
+      "delete-policy": "Delete policy"
+    },
+    "tabs": {
+      "interface-priorities": "Internet connection policies",
+      "policy-consumers": "Policy bindings"
+    },
+    "confirm": {
+      "interfaces-order": "Do you want to continue without saving the connections order?",
+      "delete-policy": "Policy '{{profile}}' will be deleted"
+    },
+    "notification": {
+      "interface-priorities-saved": "Connection priorities saved"
+    },
+    "error": {
+      "policy-name-must-be-unique": "This policy name already exists"
+    },
+    "interface-type": {
+      "isp": "Provider"
+    },
+    "hint": {
+      "rename-policy": "Rename policy"
+    },
+    "policy": "Connection policy",
+    "permit-policy": "Default policy",
+    "deny-policy": "No Internet access",
+    "interface-priorities": {
+      "description": "ISPs are listed in order of priority. To make an ISP the default drag it to the top of the list. To forbid an ISP from a specific policy uncheck the ISP’s named box.",
+      "no-global-interfaces": "No connection",
+      "interface": "Connection",
+      "speed-limit": "Speed limit",
+      "is-auto-policy": "Add new connections automatically"
+    },
+    "policy-consumers": {
+      "header": "Devices that use the selected policies",
+      "description": "Select the connection policy in the left column to see which devices are using it. You can drag and drop devices from one policy to another.",
+      "move-to-policy": "Move to",
+      "policy-is-unused": "Selected policy is not used",
+      "segments": "All unregistered devices in segments",
+      "hosts": "Devices",
+      "apps": "Applications"
+    },
+    "consumer-tooltip": {
+      "segment-unregistered-hosts": {
+        "header": "Online unregistered devices in this segment",
+        "no-hosts": "No unregistered online devices in this segment",
+        "see-all-hosts": "To see all unregistered hosts in the segment go to the {{deviceListRef}} page"
+      },
+      "host-acl-restrictions": {
+        "header": "Wireless ACL restrictions"
+      }
+    }
+  }
+}
