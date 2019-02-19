@@ -1,0 +1,55 @@
+{
+  "modems": {
+    "header-title": "Mobile broadband connection",
+    "header-sub-title": "Configure the ISP provided 3G/4G, LTE and CDMA modems to connect to the Internet.",
+    "iface": {
+      "state": "Turn on the modem",
+      "global": "Use Internet connection"
+    },
+    "editor": {
+      "usbmodem": {
+        "subform-title": "Connection settings",
+        "subform-info": "Select your cellular carrier from the list or specify the connection parameters provided by your carrier",
+        "country": "Country",
+        "preset": "Carrier",
+        "apn": "Access point (APN)",
+        "identity": "Username",
+        "password": "Password",
+        "phone": "Phone number",
+        "bridge": "PPPoE",
+        "via": "Interface",
+        "at": "Additional initialization"
+      },
+      "usblte": {
+        "apn": "Access point (APN)",
+        "auth-type": "Authentication",
+        "auth-type-no": "None",
+        "subform-title": "Connection settings",
+        "identity": "Username",
+        "password": "Password",
+        "subform-info": "Specify the connection settings provided by your mobile carrier"
+      },
+      "description": "Provider name",
+      "description-subform": "Connection",
+      "saved": "Settings saved",
+      "deleted": "Modem deleted",
+      "delete-confirm": "The modem and its settings will be deleted"
+    },
+    "absent-title": "No modems connected",
+    "absent-text": "To access the Internet via a cellular communications carrier, connect a compatible USB 3G/4G modem to the Keenetic.",
+    "toggle-label": "Enable",
+    "preset-other": "Other",
+    "ping-check": {
+      "method": "Method of checking",
+      "period": "Checking frequency",
+      "address": "Check IP address",
+      "fail-count": "Trigger threshold",
+      "port": "TCP port",
+      "icmp-echo": "ICMP echo (ping)",
+      "port-check": "TCP port check",
+      "default": "By default",
+      "title": "Check the availability of the Internet (Ping Check)",
+      "none": "Do not check"
+    }
+  }
+}
