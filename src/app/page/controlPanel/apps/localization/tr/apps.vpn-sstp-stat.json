@@ -1,0 +1,7 @@
+{
+  "apps": {
+    "vpn-sstp-stat": {
+      "popup-title": "Statistics of the SSTP VPN server"
+    }
+  }
+}
