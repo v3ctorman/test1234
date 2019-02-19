@@ -1,0 +1,58 @@
+{
+  "dect": {
+    "base": {
+      "title": "DECT base station",
+      "description": "Global settings.",
+      "form": {
+        "enable": "USB Dongle",
+        "pin": "PIN code for handset registration",
+        "offHookTimer": "Off-hook timer",
+        "dialDigitTimer": "Dial digit timer",
+        "log": {
+          "title": "Call history and Phonebook",
+          "store": "Store call history and phonebook on USB drive",
+          "length": "Maximum number of entries in the call history",
+          "callHistoryDirectory": "Storage folder",
+          "callHistoryDirectoryBtn": "Select folder",
+          "handsetEdit": "Allow deletion of call history entries via the handset menu"
+        },
+        "phonebook": {
+          "handsetEdit": "Allow editing of the phone book from the handset menu",
+          "length": "Max number of entries in the phone book",
+          "lastNameFirst": "Show first name",
+          "firstNameFirstOption": "Before last name",
+          "lastNameFirstOption": "Following last name"
+        },
+        "parallel": {
+          "title": "Parallel calls",
+          "enable": "Allow parallel calls",
+          "toggle": "Switching between calls",
+          "toggleHelp": "when you have two parallel calls, place the active call on hold and return to the held call",
+          "holdResume": "Call hold on/off",
+          "holdResumeHelp": "when you have a single call, place the call on hold or take it unhold",
+          "accept": "Answering parallel call",
+          "acceptHelp": "accept a parallel call coming during a conversation and place the conversation on hold",
+          "reject": "Rejecting parallel call",
+          "rejectHelp": "reject a parallel call coming during a conversation",
+          "releasePassive": "Ending call on hold",
+          "releasePassiveHelp": "when you have two parallel calls, finish call on hold and continue the active call",
+          "releaseActive": "Ending active call",
+          "releaseActiveHelp": "when you have two parallel calls, finish the active call and return to the held call",
+          "transfer": "Call transferring",
+          "transferHelp": "transfer a held call to the called party before or after the answer",
+          "intercept": "Call intercepting",
+          "interceptHelp": "pickup an external call coming to another DECT handset, or transfer a subscriber participating in a conversation with another handset to your handset",
+          "callInternal": "Outgoing internal call",
+          "callInternalHelp": "place a single active call on hold and make a parallel internal (Intercom) call",
+          "callExternal": "Outgoing external call",
+          "callExternalHelp": "place a single active call on hold and make a parallel external call"
+        },
+        "baseState": {
+          "enabled": "Enabled",
+          "disabled": "Disabled",
+          "dongleUnplugged": "USB dongle is unplugged"
+        }
+      }
+    }
+  }
+}
