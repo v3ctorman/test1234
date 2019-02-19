@@ -1,0 +1,14 @@
+{
+  "fs-permissions": {
+    "inherited": "Inherit",
+    "read": "Read only",
+    "write": "Write only",
+    "read/write": "Read & Write",
+    "forbidden": "Access denied",
+    "folder-banned": "Access denied by parent folder settings",
+    "description": "Select a folder and specify access permissions",
+    "when-user-not-exists": "No such user in the system. <a>Add</a> the user or <a>delete</a> this entry.",
+    "lost-user-password-placeholder": "Enter a password",
+    "no-acl-warning": "'Folder permissions control' is not installed"
+  }
+}
