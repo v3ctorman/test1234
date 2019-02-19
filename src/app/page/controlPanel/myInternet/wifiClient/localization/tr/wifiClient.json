@@ -1,0 +1,59 @@
+{
+  "wifiClient": {
+    "wps-popup": {
+      "title": "Press the WPS button on an Access Point",
+      "description": "WPS session to set up a wireless connection to the access point is running",
+      "no-stations-configured": "Failed to configure wireless connection",
+      "stop-session": "Cancel WPS session"
+    },
+    "ui": {
+      "wps-button": "WPS Button",
+      "clear-settings-button": "Clear settings"
+    },
+    "mac-repeater": {
+      "label": "Enable MAC repeater",
+      "hint": "Enables client MAC address forwading."
+    },
+    "header": "Connection to a Wi-Fi network",
+    "client-header": "Connection to a Wi-Fi network in the 'Adapter' mode",
+    "repeater-header": "Connection to a Wi-Fi network",
+    "description": "Internet connection through a wireless network of the Wi-Fi provider.",
+    "special-mode-description": "In this mode, the Keenetic must be connected to a Wi-Fi network. To select a wireless network to connect to, click 'Scan for a network'.",
+    "title-client-params": "Wireless connection settings",
+    "network-name": "Network name (SSID)",
+    "network-select": "Scan for a network",
+    "network-protection": "Network protection",
+    "network-protection-none": "None",
+    "network-protection-description": "It is recommended to connect only to networks that use maximum protection WPA2-PSK",
+    "key": "Key",
+    "password": "Password",
+    "create-password": "Enter the password for the network",
+    "channel": "Channel number",
+    "ip-address": "IP address",
+    "bssid": "BSSID (MAC address of the access point)",
+    "bssid-description": "If there are Wi-Fi networks in the list sharing the same name (SSID), you may select a specific network by entering it's AP's MAC address (BSSID).",
+    "show-additional-settings": "Show additional settings",
+    "hide-additional-settings": "Hide additional settings",
+    "site-survey-popup": {
+      "title": "Wi-Fi Networks List",
+      "title-2.4": "2.4 GHz Wi-Fi networks list",
+      "title-5": "5 GHz Wi-Fi networks list",
+      "description": "Select a network to connect to",
+      "preloader-text": "Searching for networks...",
+      "table": {
+        "essid": "Host",
+        "encryption": "Security",
+        "ieee": "Mode",
+        "quality": "Signal",
+        "channel": "@:wifiClient.channel",
+        "address": "MAC Address"
+      }
+    },
+    "on": "Enabled",
+    "off": "Disabled",
+    "turned-off": {
+      "title": "Wi-Fi was disabled by pressing a button on the device casing",
+      "text": "To connect the Keenetic to your wireless network, turn on the Wi-Fi."
+    }
+  }
+}
