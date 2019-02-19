@@ -1,7 +1,7 @@
 {
   "dect": {
     "errors": {
-      "base-unplugged": "Keenetic Plus DECT USB modülü telefon işlevlerini kullanmak için Keenetic USB portuna takın."
+      "base-unplugged": "Plug a Keenetic Plus DECT USB module into USB port of your Keenetic to use the telephony functions1."
     }
   }
 }
