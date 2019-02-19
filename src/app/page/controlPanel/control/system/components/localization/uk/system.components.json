@@ -1,0 +1,91 @@
+{
+  "system": {
+    "components": {
+      "header": "Updates and component options",
+      "description": "Install available updates or change the set of components.",
+      "current-firmware-version": "Keenetic OS version",
+      "auto-update": "Keenetic OS automatic updates",
+      "update-confirm": "The device will reboot after installing the updates",
+      "update-confirm-list-title": {
+        "install": "Components will be installed:",
+        "remove": "Components will be removed:"
+      },
+      "changelog": "What's new",
+      "status": {
+        "updates-available": "Update version",
+        "connecting": "Connecting to the update server...",
+        "reconnecting": "Retrying connection to server...",
+        "no-updates-available": "The latest updates are already installed"
+      },
+      "reset-changed-components": "Undo changes",
+      "reopen-popup": "View changes",
+      "error": "Unable to connect to the update server",
+      "errors": {
+        "402": "Service code error. Please contact technical support.",
+        "403": "No access.",
+        "404": "Updates unavailable",
+        "500": "The server is temporarily unavailable due to maintenance work.",
+        "502": "The server is temporarily unavailable. Please try again later.",
+        "504": "The server is temporarily unavailable. Please try again later.",
+        "507": "Insufficient memory to install all selected components."
+      },
+      "ui": {
+        "show-components-btn": "Show components",
+        "change-components-btn": "Component options",
+        "update-firmware-btn": "Install the update",
+        "confirm-sandbox-change": "Change the update channel?"
+      },
+      "popup": {
+        "header": "Systems component options",
+        "title": "Keenetic OS components update channel",
+        "description": "You can install the preview release of Keenetic OS by selecting 'Beta version'.",
+        "list-title": "Component list",
+        "list-hint": "Here you can change the functions of the device according to your needs by installing the required system components. If updates are available for the components already installed, the system will be fully updated within the limitations of your Keenetic’s hardware.<br>For a successful components upgrade an Internet connection is required.",
+        "sandbox-selector-label": "Update channel",
+        "sandbox": {
+          "alpha": "@:system.components.popup.sandbox.draft",
+          "beta": "Beta version",
+          "stable": "Release (recommended)",
+          "nightly": "Nightly build",
+          "draft": "Debug",
+          "delta": "@:system.components.popup.sandbox.draft"
+        },
+        "components-filter-description": "Search components by name.",
+        "no-matching-components": "No matching components.",
+        "components-form": {
+          "no-connect-description": "Failed to get component list from the server. Please try again later",
+          "description": "Select desired components by ticking and unticking in the list below, or choose the predefined setup.",
+          "version-change-on-commit-warning": "Attention! Changing the components setup will update the Keenetic OS to the latest version.",
+          "ui": {
+            "show-dependent-components": "Show dependent components",
+            "hide-dependent-components": "Hide dependent components",
+            "show-conflicting-components": "Show conflicting components",
+            "hide-conflicting-components": "Hide conflicting components",
+            "select-recommended-set": "Recommended setup",
+            "select-minimal-set": "Minimal components setup",
+            "install-component-btn": "Install",
+            "uninstall-component-btn": "Delete"
+          },
+          "component-status": {
+            "will-be-installed": "Will be installed",
+            "update-available": "Will be updated",
+            "installed": "Installed",
+            "not-installed": "Not installed",
+            "will-be-removed": "Will be removed",
+            "required": "Mandatory",
+            "conflicts": "Component conflict"
+          }
+        }
+      },
+      "alert": {
+        "title": "Operating system upgrade",
+        "sub-title": "Do not turn off the Keenetic until the update is completed.",
+        "status": {
+          "connecting": "Preparing to install",
+          "downloading": "Downloading components",
+          "flashing": "Rebooting the Keenetic"
+        }
+      }
+    }
+  }
+}
