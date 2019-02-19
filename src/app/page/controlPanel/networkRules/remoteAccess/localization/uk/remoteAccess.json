@@ -1,0 +1,114 @@
+{
+  "remoteAccess": {
+    "title": "Domain name",
+    "ddns": {
+      "title": "DDNS",
+      "description": "If you have installed a home Internet server or want to connect to the computers on your home network from the Internet you can set up a static domain name. By registering on the website of the DDNS provider you will receive your own domain name. Enter this name and password below.",
+      "type": "Service",
+      "url": "DDNS service provider URL",
+      "domain": "Domain name",
+      "username": "Username",
+      "password": "Password",
+      "autoip": "Automatically detect my IP address",
+      "enable-for": "For connections",
+      "custom": "Other",
+      "remove-button": "Delete settings",
+      "saved-success": "Settings saved",
+      "delete-confirm": "DDNS settings will be deleted",
+      "deleted-success": "Settings deleted",
+      "update-ifaces": "Reload",
+      "update-ifaces-comment": "You can update the IP address of the current connection in the DDNS service"
+    },
+    "keendns": {
+      "title": "KeenDNS",
+      "description": "The KeenDNS service provides the domain name to your Keenetic enabling you to connect to the web configurator and the servers in your network via the Internet.",
+      "setup-title": "KeenDNS operating mode",
+      "setup-description": "Cloud Access mode provides access via HTTP/HTTPS protocols and is suitable when your ISP issues you with a private IP address, i. e. not accessible from the Internet.<br>Direct Access mode allows you to use any protocol to access your home network if such access is not restricted by your ISP.",
+      "cloud-service": "Cloud service",
+      "cloud-service-enabled": "Keenetic Cloud service enabled",
+      "cloud-service-disabled": "Cloud service disabled",
+      "cloud-description": "To use Cloud Access mode, enable Keenetic Cloud service",
+      "internet-center-name": "Keenetic domain name",
+      "domain-name": "Domain name",
+      "create-name": "Think of a name",
+      "name-register": "Create and enter a name for the Keenetic, and click 'Register'.",
+      "name-registered": "Your Keenetic is now registered with the KeenDNS service.",
+      "set-password": "Set the password",
+      "repeat-password": "Repeat password",
+      "no-password-no-access": "Not available until you set {{srefLinkOpen}}administrator{{srefLinkClose}} password.",
+      "access-description": "Required for remote access to Web applications",
+      "register-popup": {
+        "title": "Domain name selection",
+        "description": "Select the IP for the Keenetic, or close this window and specify a different name",
+        "occupied-description": "If you want to use the name of another Keenetic, enter the transmission code found on its label",
+        "free-names": "Unused names",
+        "occupied-names": "Names already in use",
+        "code": "Domain name transfer code",
+        "domain-with-ssl": "With an SSL certificate"
+      },
+      "waiting-for-ssl": "Getting a certificate...",
+      "occupied": "Already taken",
+      "enable": "Enable",
+      "add": "Create",
+      "register": "Register",
+      "delete": "Release the domain name",
+      "notifications": {
+        "error": "Error",
+        "book-error": "Name registration error",
+        "name-booked": "Domain name is registered",
+        "name-deleted": "Domain name was released",
+        "save-success": "Settings saved",
+        "clipboard-copied": "Transfer code copied to clipboard"
+      },
+      "delete-confirm": "The domain name will be released",
+      "ipv4-mode": "Operating mode (IPv4)",
+      "ipv6-mode": "Operating mode (IPv6)",
+      "modes": {
+        "cloud": "Cloud access",
+        "direct": "Direct access",
+        "warnings": {
+          "no-password": {
+            "title": "Access to administration of your Keenetic is not password protected",
+            "description": "To protect the system from unauthorized access, think of a strong administrator password and set it"
+          },
+          "gray-ip": {
+            "title": "Direct access is not possible with a private IP address",
+            "description": "Please use the Cloud Access mode or purchase a public IP address from your ISP"
+          }
+        }
+      },
+      "no-internet-connection-warn": "Cannot connect to KeenDNS service",
+      "no-internet-connection-reconnection": " Repeated attempt to connect...",
+      "transfer": {
+        "code-description": "If you want to use the name of another Keenetic, enter the transmission code found on its label",
+        "link": "Transfer to another Keenetic",
+        "get-code": "Obtain a transfer code",
+        "description": "The transfer code is valid for 7 days. Enter the code in the Keenetic that you want to give a domain name to.",
+        "hint": "Allows you to transfer a domain name assigned to this Keenetic to another Keenetic",
+        "code": "Transfer code",
+        "copy": "Copy to clipboard",
+        "cancel": "Cancel name transfer"
+      },
+      "proxy": {
+        "title": "Access to web applications running on your network",
+        "description": "Using KeenDNS you can enable access from the Internet to web applications. Select “Create” to configure access to a new web application. To change the existing setting select the required entry from the list and make changes.",
+        "no-upstream-port-selected": "Not selected",
+        "table": {
+          "domain": "Domain name",
+          "name": "Device or application",
+          "ip": "Address in the home network",
+          "port": "TCP port",
+          "allow": "Access"
+        },
+        "popup": {
+          "title": "Access settings",
+          "description": "Select a device which is registered in the home network and is running a web application. Enter a domain name of your choice for this application and specify the TCP port that it uses. To access the built-in Transmission application, select 'This Keenetic' and specify the control port (8090 is used by default). You can register the device in the 'My networks and Wi-Fi' -> 'Device List' section.",
+          "port": "TCP port",
+          "allow": "Allow access",
+          "domain": "Domain name",
+          "device": "Host"
+        }
+      }
+    }
+  }
+}
