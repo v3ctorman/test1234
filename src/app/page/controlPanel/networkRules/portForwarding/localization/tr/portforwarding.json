@@ -1,0 +1,63 @@
+{
+  "portforwarding": {
+    "page-title": "Forwarding",
+    "page-description": "Port forwarding allows external access to services on your home network by using port forwarding rules.",
+    "list-add-button": "Create rule",
+    "list-no-data": "No rules created so far",
+    "list-flush-button": "Delete all rules",
+    "list-flush-confirm": "All rules will be deleted",
+    "list-edit-caption": "Edit",
+    "no-hosts-title": "No registered devices yet",
+    "rules-table-header": "Port forwarding rules",
+    "interfaces-group-title": "Interfaces",
+    "list-columns": {
+      "source": "Input",
+      "ports": "Ports",
+      "to-address": "Output",
+      "comment": "Description",
+      "enabled": "On"
+    },
+    "upnp-rules-title": "UPnP port forwarding table",
+    "no-upnp-ports": "No open ports",
+    "all-protocols": "TCP/UDP (all ports) and ICMP",
+    "all-protocols-short": "All",
+    "any-interface": "Any interface",
+    "editor": {
+      "other-destination": "Other destination",
+      "other-device": "Other device",
+      "range-error": "Enter range",
+      "port-busy-error": "The port is already in use for ",
+      "port-busy-error-this-device": "Port is already in use for this Keenetic",
+      "delete-button": "Delete this rule",
+      "delete-confirm": "The rule will be deleted",
+      "port-mode-single": "Single port",
+      "port-mode-range": "Port range",
+      "to-host-name-description": "Please enter a name for the selected device to register.",
+      "fields": {
+        "comment": "Description",
+        "enabled": "Enable rule",
+        "interface": "Input",
+        "address": "Destination network",
+        "mask": "Mask",
+        "protocol-preset": "Protocol",
+        "port-mode": "Rule type",
+        "port": "Open the port",
+        "ports": "Open the ports",
+        "to-port": "Destination port",
+        "to-host": "Output",
+        "to-host-name": "Host name",
+        "to-ip": "IP address"
+      },
+      "to-address": "Destination IP",
+      "header-edit": "Port forwarding rule",
+      "description-text": "Select the network interface or the subnet for incoming traffic and the protocol/port to give access to the local network. Select the destination device or the network interface to forward the traffic to. If you want to change the destination port choose the Single port button and specify port number in the Destination port field."
+    },
+    "notifications": {
+      "deleted": "Rule removed",
+      "flushed": "All rules removed",
+      "saved": "Rule saved",
+      "added": "Rule created",
+      "sorted": "Order saved"
+    }
+  }
+}
