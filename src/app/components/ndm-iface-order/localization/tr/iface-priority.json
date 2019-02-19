@@ -1,0 +1,8 @@
+{
+  "iface-order": {
+    "label": "Connection priority",
+    "main": "Default connection",
+    "reserve": "Backup connection",
+    "undefined": "No priority selected"
+  }
+}
