@@ -1,0 +1,44 @@
+{
+  "system": {
+    "switchports": {
+      "title": "Network ports",
+      "port-title": "Port",
+      "connection-title": "Established connection",
+      "mode-title": "Operating mode",
+      "value": {
+        "auto": "Auto-negotiation",
+        "full::10": "10 Mbps full duplex",
+        "half::10": "10 Mbps half duplex",
+        "auto::10": "10 Mbps auto duplex",
+        "full::100": "100 Mbps full duplex",
+        "half::100": "100 Mbps half duplex",
+        "auto::100": "100 Mbps auto duplex",
+        "full::1000": "1000 Mbps full duplex",
+        "auto::1000": "1000 Mbps auto duplex",
+        "off": "Disabled"
+      },
+      "view-value": {
+        "auto": "Auto",
+        "full::10": "10 F",
+        "half::10": "10 H",
+        "auto::10": "10 A",
+        "full::100": "100 F",
+        "half::100": "100 H",
+        "auto::100": "100 A",
+        "full::1000": "1000",
+        "auto::1000": "1000 A",
+        "off": "Off"
+      },
+      "speed": {
+        "10": "10 M",
+        "100": "100 M",
+        "1000": "1.0 G"
+      },
+      "ports": {
+        "full": "FDX",
+        "half": "HDX",
+        "auto": "Auto"
+      }
+    }
+  }
+}
