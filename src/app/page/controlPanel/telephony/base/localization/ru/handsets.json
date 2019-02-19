@@ -1,0 +1,57 @@
+{
+  "dect": {
+    "handsets": {
+      "title": "DECT handset settings",
+      "description": "Below find a list of the registered DECT handsets in your system. The icons to the right of the handset name show the direction of allowed calls over the telephone lines. To connect a new handset, select 'Add a handset'.",
+      "table": {
+        "number": "Number #{{number}}",
+        "name": "Handset"
+      },
+      "no-handsets": "No registered handsets yet",
+      "add-handset": "Add a handset",
+      "registered-maximum": "You have reached the maximum number of registered handsets.",
+      "stop-registration": "Stop handset registration",
+      "start-paging": "Page all handsets",
+      "stop-paging": "Stop paging",
+      "modal-before-registration": {
+        "description": "Select the 'Registration' button in this window, then switch the DECT handset to the registration mode and enter PIN code '{{pin}}'.<br>For more details on how to switch to the registration mode, please see instructions for your DECT handset.",
+        "confirm": "Registration",
+        "cancel": "Cancel registration"
+      },
+      "notifications": {
+        "registration-started": "Handset registration started",
+        "registration-stopped": "Handset registration canceled",
+        "handset-removed": "Handset registration deleted",
+        "handset-saved": "Settings saved"
+      },
+      "registration-popup": {
+        "title": "DECT handset registration",
+        "description": "Enter the PIN code {{pin}} on the handset"
+      },
+      "success-registration": "The handset has been successfully registered",
+      "registration-failed": "The handset is not detected. Make sure that the handset you are trying to connect is compatible with Keenetic Plus DECT. For the list of compatible handsets, please refer to the support page. <br>Select 'Repeat registration' to try again.",
+      "retry-registration": "Repeat registration",
+      "popup": {
+        "title": "DECT handset settings",
+        "description": "Basic settings",
+        "form": {
+          "model": "Model",
+          "catiq": "Supported technologies",
+          "name": "Handset name",
+          "continuous": "Continuous ringtone",
+          "start-paging": "Page the handset",
+          "stop-paging": "Stop paging",
+          "delete-handset": "Unregister a handset"
+        },
+        "table": {
+          "title": "Bind the handset to telephone lines",
+          "description": "You can forbid incoming and outgoing calls through specific phone lines for a handset by clearing the appropriate checkboxes in the table. <br>Please note that the dial rules for the phone line with forbidden outgoing calls will be ignored.",
+          "line": "Telephone line",
+          "incoming": "Incoming",
+          "outgoing": "Outgoing",
+          "digitmap": "Dial rules"
+        }
+      }
+    }
+  }
+}
