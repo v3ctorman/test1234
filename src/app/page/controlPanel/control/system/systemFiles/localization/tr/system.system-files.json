@@ -1,0 +1,44 @@
+{
+  "system": {
+    "system-files": {
+      "header": "System files",
+      "description-main": "Files for managing your Keenetic. You can download these files for viewing and upload to replace.",
+      "description-secondary": "Management information files about your device. The files are read-only and you can view them by downloading them on your computer.",
+      "item-description": "You can download this file on your computer.",
+      "uploadable-item-description": "You can download this file on your computer or upload a new one to the Keenetic.",
+      "current-firmware-version": "@:system.components.current-firmware-version",
+      "device-name": "Device model",
+      "ui": {
+        "replace-file-btn": "Replace file",
+        "save-file-btn": "Save to computer"
+      },
+      "errors": {
+        "8585246": "The file is too small",
+        "8585247": "The file is too large",
+        "8585248": "Invalid or corrupt file",
+        "8585249": "File header error",
+        "8585250": "The file does not correspond to the device",
+        "8585251": "File checksum error",
+        "8585252": "The file contains incorrect kernel image",
+        "8585253": "The file contains an incorrect image of the root file system",
+        "8585267": "Wrong Keenetic OS file format"
+      },
+      "upload-alert": {
+        "title": "Uploading the file to the Keenetic",
+        "load-file": "Uploading the file to the Keenetic",
+        "prepare-to-install": "File upload",
+        "install": "Rebooting the Keenetic"
+      },
+      "files-list": {
+        "firmware": "Keenetic OS and the current set of installed components.",
+        "startup-config": "The set of commands that runs when the system starts in this particular mode.",
+        "default-config": "The file holding the factory default settings for this device.",
+        "log": "System event log for system diagnostics.",
+        "running-config": "The file holding the current settings for this device. It replaces the startup-config file when you save new settings.",
+        "dect-firmware": "Keenetic Plus DECT module firmware",
+        "self-test": "Full diagnostic information about this device, can be passed to technical support upon request (does not include your passwords).",
+        "dect-call-history": "Call history since the Keenetic was last switched on."
+      }
+    }
+  }
+}
