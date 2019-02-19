@@ -1,0 +1,27 @@
+{
+  "otherConnections": {
+    "ipv6to4": {
+      "header": "IPv6 in IPv4 tunnels",
+      "description": "These connections allow to access Internet resources with IPv6 addresses when your ISP uses the IPv4 protocol only.<br><br>Choose the IPv6 virtual provider (tunnel broker) who works using the 6in4 technology and sign up on their website. Then select Add Connection and enter the IP addresses given by the tunnel broker.",
+      "editor": {
+        "header": "Connection settings"
+      },
+      "btn": {
+        "add-tunnel": "Create connection",
+        "delete-tunnel": "Delete connection"
+      },
+      "table": {
+        "is-global": "Internet",
+        "name": "Connection"
+      },
+      "tunnel": {
+        "is-enabled": "Enabled",
+        "is-global": "Use for accessing the Internet",
+        "description": "Connection name",
+        "ipv4-address": "IPv4 address",
+        "ipv6-address": "IPv6 address",
+        "ipv6-prefix": "IPv6 prefix"
+      }
+    }
+  }
+}
