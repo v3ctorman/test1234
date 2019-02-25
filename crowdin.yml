@@ -1,3 +1,6 @@
+preserve_hierarchy: false
+
 files:
-  - source: /src/**/en/*.json
-    translation: /src/**/%two_letters_code%/%original_file_name%
+  - source: /src/app/components/ndm-dect-checker/localization/en/ndm-dect-checker.json
+    dest: /ndm-dect-checker.json
+    translation: /src/app/components/ndm-dect-checker/localization/%two_letters_code%/%original_file_name%
