@@ -1,4 +1,5 @@
 {
+  "test_key_12345": "test string",
   "2fa_china_modal_enter_code": "2fa_china_modal_enter_code",
   "2fa_china_modal_enter_code_plc": "2fa_china_modal_enter_code_plc",
   "2fa_code_description": "2fa_code_description",
